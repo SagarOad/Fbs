@@ -1,0 +1,33 @@
+@font-face {
+    font-family: 'cabinet';
+    src: url('./assets/fonts/CabinetGrotesk-Black.otf') format('opentype');
+    src: url('./assets/fonts/CabinetGrotesk-Bold.otf') format('opentype');
+    src: url('./assets/fonts/CabinetGrotesk-Extrabold.otf') format('opentype');
+    src: url('./assets/fonts/CabinetGrotesk-Extralight.otf') format('opentype');
+    src: url('./assets/fonts/CabinetGrotesk-Light.otf') format('opentype');
+    src: url('./assets/fonts/CabinetGrotesk-Medium.otf') format('opentype');
+    src: url('./assets/fonts/CabinetGrotesk-Regular.otf') format('opentype');
+    src: url('./assets/fonts/CabinetGrotesk-Thin.otf') format('opentype');
+    font-style: normal;
+  }
+  
+@font-face {
+    font-family: 'cabinet' ;
+    src: url('./assets/fonts/CabinetGrotesk-Medium.otf') format('opentype');
+}
+@font-face {
+    font-family: 'cabinet-bold' ;
+    src: url('./assets/fonts/CabinetGrotesk-Bold.otf') format('opentype');
+}
+@font-face {
+    font-family: 'cabinet-extrabold' ;
+    src: url('./assets/fonts/CabinetGrotesk-Extrabold.otf') format('opentype');
+}
+@font-face {
+    font-family: 'cabinet-extralight' ;
+    src: url('./assets/fonts/CabinetGrotesk-Extralight.otf') format('opentype');
+}
+
+  body {
+    font-family: 'cabinet', sans-serif;
+  }
