@@ -1,33 +1,123 @@
 @font-face {
-    font-family: 'cabinet';
-    src: url('./assets/fonts/CabinetGrotesk-Black.otf') format('opentype');
-    src: url('./assets/fonts/CabinetGrotesk-Bold.otf') format('opentype');
-    src: url('./assets/fonts/CabinetGrotesk-Extrabold.otf') format('opentype');
-    src: url('./assets/fonts/CabinetGrotesk-Extralight.otf') format('opentype');
-    src: url('./assets/fonts/CabinetGrotesk-Light.otf') format('opentype');
-    src: url('./assets/fonts/CabinetGrotesk-Medium.otf') format('opentype');
-    src: url('./assets/fonts/CabinetGrotesk-Regular.otf') format('opentype');
-    src: url('./assets/fonts/CabinetGrotesk-Thin.otf') format('opentype');
-    font-style: normal;
-  }
-  
-@font-face {
-    font-family: 'cabinet' ;
-    src: url('./assets/fonts/CabinetGrotesk-Medium.otf') format('opentype');
-}
-@font-face {
-    font-family: 'cabinet-bold' ;
-    src: url('./assets/fonts/CabinetGrotesk-Bold.otf') format('opentype');
-}
-@font-face {
-    font-family: 'cabinet-extrabold' ;
-    src: url('./assets/fonts/CabinetGrotesk-Extrabold.otf') format('opentype');
-}
-@font-face {
-    font-family: 'cabinet-extralight' ;
-    src: url('./assets/fonts/CabinetGrotesk-Extralight.otf') format('opentype');
+  font-family: "cabinet";
+  src: url("./assets/fonts/CabinetGrotesk-Black.otf") format("opentype");
+  src: url("./assets/fonts/CabinetGrotesk-Bold.otf") format("opentype");
+  src: url("./assets/fonts/CabinetGrotesk-Extrabold.otf") format("opentype");
+  src: url("./assets/fonts/CabinetGrotesk-Extralight.otf") format("opentype");
+  src: url("./assets/fonts/CabinetGrotesk-Light.otf") format("opentype");
+  src: url("./assets/fonts/CabinetGrotesk-Medium.otf") format("opentype");
+  src: url("./assets/fonts/CabinetGrotesk-Regular.otf") format("opentype");
+  src: url("./assets/fonts/CabinetGrotesk-Thin.otf") format("opentype");
+  font-style: normal;
 }
 
-  body {
-    font-family: 'cabinet', sans-serif;
-  }
+@font-face {
+  font-family: "cabinet";
+  src: url("./assets/fonts/CabinetGrotesk-Medium.otf") format("opentype");
+}
+@font-face {
+  font-family: "cabinet-bold";
+  src: url("./assets/fonts/CabinetGrotesk-Bold.otf") format("opentype");
+}
+@font-face {
+  font-family: "cabinet-extrabold";
+  src: url("./assets/fonts/CabinetGrotesk-Extrabold.otf") format("opentype");
+}
+@font-face {
+  font-family: "cabinet-extralight";
+  src: url("./assets/fonts/CabinetGrotesk-Extralight.otf") format("opentype");
+}
+
+body {
+  font-family: "cabinet", sans-serif;
+}
+
+.primary-btn {
+  width: 160px;
+  font-size: 18px;
+  font-weight: 400;
+  color: #fff;
+  cursor: pointer;
+  height: 52px;
+  text-align: center;
+  border: none;
+  background-size: 300% 100%;
+  border-radius: 50px;
+  moz-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+.white-btn {
+  width: 160px;
+  font-size: 18px;
+  font-weight: 400;
+  color: #000000;
+  cursor: pointer;
+  height: 52px;
+  background:white;
+  text-align: center;
+  border: none;
+  background-size: 300% 100%;
+  border-radius: 50px;
+}
+.primary-btn-hover:hover {
+  background-position: 100% 0;
+  moz-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.primary-btn-hover:focus {
+  outline: none;
+}
+
+.primary-btn-hover.primary-btn {
+  background-image: linear-gradient(
+    to right,
+    #25aae1,
+    #4481eb,
+    #04befe,
+    #3f86ed
+  );
+  box-shadow: 0 4px 15px 0 rgba(65, 132, 234, 0.75);
+}
+
+ul li a {
+  font-family: inter;
+  font-size: 17px;
+  color: #6b7280;
+  font-weight: 400;
+}
+summary {
+  font-family: inter;
+  font-size: 17px;
+  color: #6b7280;
+  font-weight: 400;
+}
+
+h1 {
+  z-index: 999 !important;
+}
+
+.main-banner {
+  background-image: url(../src//assets/main-grad.png);
+  background-repeat: no-repeat;
+  background-size:contain;
+  background-position-x: right;
+}
+
+
+.scroll-progress {
+  height: 6px;
+  background-color: #3498db;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+
+
+
+
