@@ -46,7 +46,7 @@ const MainBanner = () => {
           </div>
         </div>
         <div className="col-span-4 sider-banner">
-          <div className="grid opacity-90 absolute bottom-0 right-50 grid-cols-12">
+          {/* <div className="grid opacity-90 absolute bottom-0 right-50 grid-cols-12">
             <div className="col-span-6">
               <div className="">
                 <img
@@ -71,7 +71,7 @@ const MainBanner = () => {
                 />
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>

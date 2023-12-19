@@ -84,6 +84,16 @@ body {
   box-shadow: 0 4px 15px 0 rgba(65, 132, 234, 0.75);
 }
 
+.services-sec {
+    background-image: linear-gradient(
+    to right,
+    #25aae1,
+    #4481eb,
+    #3f86ed,
+    #04befe
+  );
+}
+
 ul li a {
   font-family: inter;
   font-size: 17px;
@@ -102,7 +112,7 @@ h1 {
 }
 
 .main-banner {
-  background-image: url(../src//assets/main-grad.png);
+  background-image: url(../src//assets/main-grad3.png);
   background-repeat: no-repeat;
   background-size:contain;
   background-position-x: right;
@@ -117,7 +127,3 @@ h1 {
   left: 0;
   z-index: 1000;
 }
-
-
-
-
