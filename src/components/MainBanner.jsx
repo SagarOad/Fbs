@@ -1,4 +1,5 @@
 import React from "react";
+import mainBanner from "../assets/main-banner.png";
 import img1 from "../assets/nft.jpg";
 import img2 from "../assets/lapt.jpg";
 import img3 from "../assets/graphic.jpg";
