@@ -18,11 +18,11 @@ const OurProducts = () => {
                 className=" w-[180px] mb-6 p-2"
                 src="https://www.famewheels.com/static/media/fame-wheels-logo.bdbcd17588780f149f99.png"
               />
-              <h1 className="font-[cabinet] font-[700] relative text-[2rem]">
+              <h1 className="font-[inter] font-[700] relative text-[2rem]">
                 Famewheels, Revolutionizing vehicle selling.
               </h1>
 
-              <p className=" font-[inter] text-[18px] pt-3">
+              <p className=" font-[poppins] text-[18px] pt-3">
                 MicroPets Runner is a classic side-scrolling runner game that
                 allows users to proceed with their game character (MicroPets NFT
                 product) picking up coins (to earn rewards) on their way past
@@ -30,7 +30,7 @@ const OurProducts = () => {
               </p>
 
               <div className=" flex mt-8">
-                <button className="primary-btn primary-btn-hover font-[inter]">
+                <button className="second-btn font-[inter]">
                   View More
                 </button>
               </div>
@@ -55,11 +55,11 @@ const OurProducts = () => {
                 className=" w-[150px] mb-6 p-2"
                 src="https://famehealthcaretech.com/wp-content/uploads/2023/11/Group-16-1.png"
               />
-              <h1 className="font-[cabinet] font-[700] relative text-[2rem]">
+              <h1 className="font-[inter] font-[700] relative text-[2rem]">
                 Famewheels, Revolutionizing vehicle selling.
               </h1>
 
-              <p className=" font-[inter] text-[18px] pt-3">
+              <p className=" font-[poppins] text-[18px] pt-3">
                 MicroPets Runner is a classic side-scrolling runner game that
                 allows users to proceed with their game character (MicroPets NFT
                 product) picking up coins (to earn rewards) on their way past
@@ -67,7 +67,7 @@ const OurProducts = () => {
               </p>
 
               <div className=" flex mt-8">
-                <button className="primary-btn primary-btn-hover font-[inter]">
+                <button className="second-btn font-[inter]">
                   View More
                 </button>
               </div>
@@ -81,11 +81,11 @@ const OurProducts = () => {
                 className=" w-[140px] mb-6 p-4"
                 src="https://studentofpakistan.com/images/sop.png"
               />
-              <h1 className="font-[cabinet] font-[700] relative text-[2rem]">
+              <h1 className="font-[inter] font-[700] relative text-[2rem]">
                 Famewheels, Revolutionizing vehicle selling.
               </h1>
 
-              <p className=" font-[inter] text-[18px] pt-3">
+              <p className=" font-[poppins] text-[18px] pt-3">
                 MicroPets Runner is a classic side-scrolling runner game that
                 allows users to proceed with their game character (MicroPets NFT
                 product) picking up coins (to earn rewards) on their way past
@@ -93,7 +93,7 @@ const OurProducts = () => {
               </p>
 
               <div className=" flex mt-8">
-                <button className="primary-btn primary-btn-hover font-[inter]">
+                <button className="second-btn font-[inter]">
                   View More
                 </button>
               </div>

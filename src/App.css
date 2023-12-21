@@ -84,6 +84,15 @@ body {
   box-shadow: 0 4px 15px 0 rgba(65, 132, 234, 0.75);
 }
 
+.second-btn {
+  font-size: 18px;
+  background-color: #4481eb;
+  width: 170px;
+  height: 48px;
+  font-size: 18px;
+  color: white;
+}
+
 .services-sec {
     background-image: linear-gradient(
     to right,

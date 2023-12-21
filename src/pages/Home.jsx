@@ -5,6 +5,9 @@ import Tabs from '../components/Tabs'
 import Portfolio from '../components/Portfolio'
 import ServicesSec from '../components/ServicesSec'
 import OurProducts from '../components/OurProducts'
+import Testimonials from '../components/Testimonials'
+import Tech from '../components/Tech'
+import TechTabs from '../components/TechTabs'
 
 const Home = () => {
   return (
@@ -14,6 +17,8 @@ const Home = () => {
         <ServicesSec />
         <OurProducts />
         <Portfolio />
+        <Testimonials />
+        <TechTabs />
     </div>
   )
 }
