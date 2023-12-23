@@ -32,7 +32,9 @@ const OurProducts = () => {
 
                 <div className=" flex mt-8">
                   <button className="btn rounded-none bg-[#4481eb] text-[white] hover:text-[black] font-medium font-[inter] h-[52px] w-[190px] text-[18px]">
+                  <a href="https://famewheels.com/">
                     View More
+                    </a>
                   </button>
                 </div>
               </div>
@@ -58,19 +60,20 @@ const OurProducts = () => {
                 src="https://famehealthcaretech.com/wp-content/uploads/2023/11/Group-16-1.png"
               />
               <h1 className="font-[inter] font-[700] relative text-[2rem]">
-                Famewheels, Revolutionizing vehicle selling.
+                Your Health, Your Insurance, Our Commitment
               </h1>
 
               <p className=" font-[inter] text-[18px] pt-3">
-                MicroPets Runner is a classic side-scrolling runner game that
-                allows users to proceed with their game character (MicroPets NFT
-                product) picking up coins (to earn rewards) on their way past
-                monsters and obstacles.
+                Experience seamless healthcare with our 24/7 virtual clinic.
+                Connect with live primary doctors and mental health
+                professionals from the comfort of your home. Our commitment is
+                to provide accessible and high-quality care whenever you need
+                it.
               </p>
 
               <div className=" flex mt-8">
                 <button className="btn rounded-none bg-[#4481eb] text-[white] hover:text-[black] font-medium font-[inter] h-[52px] w-[190px] text-[18px]">
-                  View More
+                  <a href="https://famehealthcaretech.com/">View More</a>
                 </button>
               </div>
             </div>
@@ -83,19 +86,20 @@ const OurProducts = () => {
                 src="https://studentofpakistan.com/images/sop.png"
               />
               <h1 className="font-[inter] font-[700] relative text-[2rem]">
-                Famewheels, Revolutionizing vehicle selling.
+                Student of Pakistan
               </h1>
 
               <p className=" font-[inter] text-[18px] pt-3">
-                MicroPets Runner is a classic side-scrolling runner game that
-                allows users to proceed with their game character (MicroPets NFT
-                product) picking up coins (to earn rewards) on their way past
-                monsters and obstacles.
+                Proudly preparing youth for SSB and CSS exams, our academy is
+                launching a nationwide 'Student of Pakistan' competition for
+                secondary school students, aiming to identify and recognize the
+                nation's brightest minds, fostering their journey toward
+                becoming future leaders.
               </p>
 
               <div className=" flex mt-8">
                 <button className="btn rounded-none bg-[#4481eb] text-[white] hover:text-[black] font-medium font-[inter] h-[52px] w-[190px] text-[18px]">
-                  View More
+                  <a href="https://studentofpakistan.com/">View More</a>
                 </button>
               </div>
             </div>
