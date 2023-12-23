@@ -11,12 +11,12 @@ const TechApps = () => {
   return (
     <div>
         <div className='flex flex-wrap mt-12 justify-evenly'>
-        <DiAndroid className=' mx-2 text-[7rem]' />
-        <FaApple className=' mx-2 text-[7rem]' />
-        <SiReact className=' mx-2 text-[7rem]' />
-        <SiFlutter className=' mx-2 text-[7rem]' />
-        <SiSwift className=' mx-2 text-[7rem]' />
-        <TbBrandKotlin className=' mx-2 text-[7rem]' />
+        <DiAndroid className=' mx-2 text-white text-[7rem]' />
+        <FaApple className=' mx-2 text-white text-[7rem]' />
+        <SiReact className=' mx-2 text-white text-[7rem]' />
+        <SiFlutter className=' mx-2 text-white text-[7rem]' />
+        <SiSwift className=' mx-2 text-white text-[7rem]' />
+        <TbBrandKotlin className=' mx-2 text-white text-[7rem]' />
 
         </div>
     </div>

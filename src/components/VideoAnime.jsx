@@ -3,92 +3,76 @@ import React from "react";
 const VideoAnime = () => {
   return (
       <div>
-        <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
-          <div>
-            <img
-              class="h-auto max-w-full rounded-lg"
-              src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image.jpg"
-              alt=""
-            />
+       <section className="portfolio-section" id="portfolio">
+        <div className="container-fluid">
+          <div className="container mx-auto px-2 md:px-5 py-2 lg:px-6 lg:pt-4">
+            <div className="-m-1 flex flex-wrap md:-m-2">
+              <div className="flex w-full flex-wrap">
+                <div className=" w-1/3 p-1 md:p-2">
+                  <video
+                   loop
+                   autoPlay
+                   muted
+                  
+                    className="block h-full w-full rounded-lg object-cover object-center "
+                    src="https://fameitech.com/video_animations/3d_ABC_for_kids.mp4"
+                  />
+                </div>
+                <div className=" w-1/3 p-1 md:p-2">
+                <video
+                   loop
+                   autoPlay
+                   muted
+                  
+                    className="block h-full w-full rounded-lg object-cover object-center "
+                    src="https://fameitech.com/video_animations/charity_water_org_motion_graphics.mp4"
+                  />
+                </div>
+                <div className=" w-1/3 p-1 md:p-2">
+                <video
+                   loop
+                   autoPlay
+                   muted
+                  
+                    className="block h-full w-full rounded-lg object-cover object-center "
+                    src="https://fameitech.com/video_animations/real_estate_3d_amintion.mp4"
+                  />
+                </div>
+                <div className=" w-1/3 p-1 md:p-2">
+                <video
+                   loop
+                   autoPlay
+                   muted
+                  
+                    className="block h-full w-full rounded-lg object-cover object-center "
+                    src="https://fameitech.com/video_animations/short_animation_3_for_social_media_gigs.mp4"
+                  />
+                </div>
+                <div className=" w-1/3 p-1 md:p-2">
+                <video
+                   loop
+                   autoPlay
+                   muted
+                  
+                    className="block h-full w-full rounded-lg object-cover object-center "
+                    src="https://fameitech.com/video_animations/whiteboard_animation_Game_vs_Gamer.mp4"
+                  />
+                </div>
+                <div className=" w-1/3 p-1 md:p-2">
+                <video
+                   loop
+                   autoPlay
+                   muted
+                  
+                    className="block h-full w-full rounded-lg object-cover object-center "
+                    src="https://fameitech.com/video_animations/Tugella.mp4"
+                  />
+                </div>
+              </div>
+              </div>
+            </div>
           </div>
-          <div>
-            <img
-              class="h-auto max-w-full rounded-lg"
-              src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-1.jpg"
-              alt=""
-            />
-          </div>
-          <div>
-            <img
-              class="h-auto max-w-full rounded-lg"
-              src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-2.jpg"
-              alt=""
-            />
-          </div>
-          <div>
-            <img
-              class="h-auto max-w-full rounded-lg"
-              src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-3.jpg"
-              alt=""
-            />
-          </div>
-          <div>
-            <img
-              class="h-auto max-w-full rounded-lg"
-              src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-4.jpg"
-              alt=""
-            />
-          </div>
-          <div>
-            <img
-              class="h-auto max-w-full rounded-lg"
-              src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-5.jpg"
-              alt=""
-            />
-          </div>
-          <div>
-            <img
-              class="h-auto max-w-full rounded-lg"
-              src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-6.jpg"
-              alt=""
-            />
-          </div>
-          <div>
-            <img
-              class="h-auto max-w-full rounded-lg"
-              src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-7.jpg"
-              alt=""
-            />
-          </div>
-          <div>
-            <img
-              class="h-auto max-w-full rounded-lg"
-              src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-8.jpg"
-              alt=""
-            />
-          </div>
-          <div>
-            <img
-              class="h-auto max-w-full rounded-lg"
-              src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-9.jpg"
-              alt=""
-            />
-          </div>
-          <div>
-            <img
-              class="h-auto max-w-full rounded-lg"
-              src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-10.jpg"
-              alt=""
-            />
-          </div>
-          <div>
-            <img
-              class="h-auto max-w-full rounded-lg"
-              src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-11.jpg"
-              alt=""
-            />
-          </div>
-        </div>
+      </section>
       </div>
   );
 };

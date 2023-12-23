@@ -30,6 +30,7 @@
 
 body {
   font-family: "cabinet", sans-serif;
+  overflow-x: hidden;
 }
 
 .primary-btn {
@@ -102,6 +103,15 @@ body {
     #04befe
   );
 }
+.our-tech {
+    background-image: linear-gradient(
+    to right,
+    #04befe,
+    #25aae1,
+    #25aae1,
+    #04befe
+  );
+}
 
 ul li a {
   font-family: inter;
@@ -135,4 +145,13 @@ h1 {
   top: 0;
   left: 0;
   z-index: 1000;
+}
+
+button#dropdownNavbarLink {
+  font-weight: 400 !important;
+  font-family: 'Inter';
+}
+
+div#dropdownNavbar {
+  width: 218px !important;
 }

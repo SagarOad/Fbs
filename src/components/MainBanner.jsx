@@ -4,10 +4,11 @@ import img1 from "../assets/nft.jpg";
 import img2 from "../assets/lapt.jpg";
 import img3 from "../assets/graphic.jpg";
 import img4 from "../assets/video.jpg";
+import mock from "../assets/mock.png";
 
 const MainBanner = () => {
   return (
-    <div className="bg-[#f9fafb] main-banner relative overflow-hidden">
+    <div className="bg-[#f9fafb] relative overflow-hidden">
       <div className="grid grid-cols-12 lg:mx-52 2xl:mx-80 z-40">
         <div className="col-span-8 py-20 lg:h-auto 2xl:h-[80vh] flex flex-col justify-center items-center">
           <div>
@@ -46,7 +47,10 @@ const MainBanner = () => {
             </div>
           </div>
         </div>
-        <div className="col-span-4 sider-banner">
+        <div className="col-span-4 flex justify-center items-center sider-banner">
+          <div>
+            <img className=" w-[50%] right-2 top-1 absolute" src={mock} />
+          </div>
           {/* <div className="grid opacity-90 absolute bottom-0 right-50 grid-cols-12">
             <div className="col-span-6">
               <div className="">

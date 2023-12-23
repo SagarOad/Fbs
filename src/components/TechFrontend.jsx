@@ -10,11 +10,11 @@ const TechFrontend = () => {
   return (
     <div>
         <div className='flex flex-wrap mt-12 justify-evenly'>
-           <FaAngular className=' mx-2 text-[7rem]' />
-           <SiReact className=' mx-2 text-[7rem]' />
-           <SiTypescript className=' mx-2 text-[7rem]' />
-           <RiVuejsFill className=' mx-2 text-[7rem]' />
-           <FaHtml5 className=' mx-2 text-[7rem]' />
+           <FaAngular className=' mx-2 text-white text-[7rem]' />
+           <SiReact className=' mx-2 text-white text-[7rem]' />
+           <SiTypescript className=' mx-2 text-white text-[7rem]' />
+           <RiVuejsFill className=' mx-2 text-white text-[7rem]' />
+           <FaHtml5 className=' mx-2 text-white text-[7rem]' />
 
         </div>
     </div>

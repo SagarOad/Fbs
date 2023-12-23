@@ -7,9 +7,9 @@ const TechBackend = () => {
   return (
     <div>
       <div className="flex flex-wrap mt-12 justify-evenly">
-        <DiPhp className=" mx-2 text-[7rem]" />
-        <FaJava className=" mx-2 text-[7rem]" />
-        <FaNode className=" mx-2 text-[7rem]" />
+        <DiPhp className=" mx-2 text-white text-[7rem]" />
+        <FaJava className=" mx-2 text-white text-[7rem]" />
+        <FaNode className=" mx-2 text-white text-[7rem]" />
       </div>
     </div>
   );

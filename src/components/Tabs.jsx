@@ -25,7 +25,7 @@ const Tabs = () => {
 
   return (
     <div>
-      <div className="flex">
+      <div className="flex justify-center">
         <Tab tabNumber={1} tabText="Web Development" />
         <Tab tabNumber={2} tabText="Graphic Design" />
         <Tab tabNumber={3} tabText="App Development" />

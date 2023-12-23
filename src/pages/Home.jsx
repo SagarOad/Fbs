@@ -8,10 +8,12 @@ import OurProducts from '../components/OurProducts'
 import Testimonials from '../components/Testimonials'
 import Tech from '../components/Tech'
 import TechTabs from '../components/TechTabs'
+import Awards from '../components/Awards'
+import Footer from '../components/Footer'
 
 const Home = () => {
   return (
-    <div className='w-full '>
+    <div className='w-full'>
         <Navbar />
         <MainBanner />
         <ServicesSec />
@@ -19,6 +21,8 @@ const Home = () => {
         <Portfolio />
         <Testimonials />
         <TechTabs />
+        <Awards />
+        <Footer />
     </div>
   )
 }

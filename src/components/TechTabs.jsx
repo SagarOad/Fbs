@@ -15,9 +15,9 @@ const TechTabs = () => {
 
   const Tab = ({ tabNumber, tabText }) => (
     <div
-      className={`cursor-pointer mr-3 my-4 font-medium  text-[18px] border-[#4481eb] font-[inter] py-4 px-4 ${
+      className={`cursor-pointer mr-3 my-4 font-medium  text-[18px] border-[white] font-[inter] py-4 px-4 ${
         activeTab === tabNumber
-          ? " text-[#4481eb] border-b-[3.5px] "
+          ? " text-[white] border-b-[3.5px] "
           : "bg-transparent text-gray-800"
       }`}
       onClick={() => handleTabClick(tabNumber)}
@@ -27,8 +27,9 @@ const TechTabs = () => {
   );
 
   return (
-    <div className="max-w-screen-xl px-4 mx-auto text-center lg:py-20 lg:px-6">
-      <h1 className="font-[inter] font-[700] text-center relative mb-8 leading-[50px] text-[2.4rem]">
+    <div className="our-tech">
+    <div className="max-w-screen-xl px-4 mx-auto text-center lg:py-28 lg:px-6">
+      <h1 className="font-[inter] text-white font-[700] text-center relative mb-8 leading-[50px] text-[2.4rem]">
         Technologies we work with
       </h1>
       <div className="flex justify-center items-center">
@@ -47,6 +48,7 @@ const TechTabs = () => {
         {activeTab === 5 && <TechCms />}
         {activeTab === 6 && <TechDesign />}
       </div>
+    </div>
     </div>
   );
 };

@@ -1,14 +1,8 @@
 import React from "react";
-import { useEffect } from "react";
 import Slider from "react-slick";
 
 const Testimonials = () => {
-  useEffect(() => {
-    console.log("Slider component mounted");
-    return () => {
-      console.log("Slider component unmounted");
-    };
-  }, []);
+
 
   const testimonials = [
     {

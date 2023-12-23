@@ -7,9 +7,9 @@ const TechCms = () => {
   return (
     <div>
       <div className="flex flex-wrap mt-12 justify-evenly">
-        <FaWordpress className=" mx-2 text-[7rem]" />
-        <FaMagento className=" mx-2 text-[7rem]" />
-        <FaShopify className=" mx-2 text-[7rem]" />
+        <FaWordpress className=" mx-2 text-white text-[7rem]" />
+        <FaMagento className=" mx-2 text-white text-[7rem]" />
+        <FaShopify className=" mx-2 text-white text-[7rem]" />
       </div>
     </div>
   );
