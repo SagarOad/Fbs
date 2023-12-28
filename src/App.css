@@ -155,3 +155,11 @@ button#dropdownNavbarLink {
 div#dropdownNavbar {
   width: 218px !important;
 }
+
+button.slick-arrow.slick-next {
+  display: none !important;
+}
+
+button.slick-arrow.slick-prev {
+  display: none !important;
+}

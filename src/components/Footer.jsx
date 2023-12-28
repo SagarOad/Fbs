@@ -81,12 +81,12 @@ const Footer = () => {
       </div>
 
       <footer className="grid grid-cols-12  lg:py-20  lg:px-6 font-[poppins] max-w-screen-xl mx-auto p-10 text-base-content">
-        <nav className=" col-span-4 pr-20">
+        <nav className=" col-span-12 lg:col-span-4 pr-20">
           <header className="text-[30px] mb-4 font-bold">Got a Project?</header>
           <header className="text-[26px] mb-4">Let's Talk</header>
           <a className="link  text-[18px] mt-2 link-hover">Tell us more</a>
         </nav>
-        <nav className=" col-span-4 pr-20">
+        <nav className=" col-span-12 lg:col-span-4 pr-20">
           <header className="text-[23px] mb-4 font-bold ">
             Fame Business Solutions
           </header>
@@ -95,7 +95,7 @@ const Footer = () => {
             Karachi, 75600
           </a>
         </nav>
-        <nav className=" col-span-4 pl-20">
+        <nav className=" col-span-12 lg:col-span-4 pl-20">
           <div className=" grid grid-cols-12">
             <div className=" col-span-6 text-[15px] flex flex-col">
               <a className="link   mt-2 link-hover">About us</a>

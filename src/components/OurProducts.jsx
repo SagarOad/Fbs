@@ -6,14 +6,14 @@ import sop from "../assets/sop.png";
 const OurProducts = () => {
   return (
     <div className="py-32">
-      <div className="lg:mx-52 2xl:mx-80">
-        <h1 className="font-[inter] mb-28 px-40 font-[700] text-center relative leading-[60px] text-[2.7rem]">
+      <div className="mx-8 lg:mx-52 2xl:mx-80">
+        <h1 className="font-[inter] mb-20 px-8 xl:px-40 font-[700] text-center relative leading-[44px] xl:leading-[60px] text-[2rem] xl:text-[2.7rem]">
           We love transforming product ideas to digital realities.
         </h1>
 
         <div>
           <div className="grid grid-cols-12">
-            <div className="col-span-6 flex justify-center items-center pr-20">
+            <div className="col-span-12 lg:col-span-6 flex justify-center items-center lg:pr-20">
               <div>
                 <img
                   className=" w-[180px] mb-6 p-2"
@@ -30,31 +30,29 @@ const OurProducts = () => {
                   society.
                 </p>
 
-                <div className=" flex mt-8">
+                <div className=" flex mt-4 lg:mt-8">
                   <button className="btn rounded-none bg-[#4481eb] text-[white] hover:text-[black] font-medium font-[inter] h-[52px] w-[190px] text-[18px]">
-                  <a href="https://famewheels.com/">
-                    View More
-                    </a>
+                    <a href="https://famewheels.com/">View More</a>
                   </button>
                 </div>
               </div>
             </div>
-            <div className="col-span-6">
+            <div className="col-span-12 lg:col-span-6">
               <img
-                className="w-[100%] h-[100%]  object-cover object-left"
+                className="lg:w-[100%] w-[60%] h-[100%] lg:mt-0 mt-8 object-cover object-left"
                 src={wheels}
               />
             </div>
           </div>
 
           <div className="grid grid-cols-12 mt-40">
-            <div className="col-span-6">
+            <div className="xl:col-span-6 col-span-12">
               <img
                 className="w-[100%] h-[100%] border-[#25aae1] border-2 rounded-[30px] object-cover object-left"
                 src={healthcare}
               />
             </div>
-            <div className="col-span-6 pl-20">
+            <div className="xl:col-span-6 col-span-12 lg:pl-20">
               <img
                 className=" w-[150px] mb-6 p-2"
                 src="https://famehealthcaretech.com/wp-content/uploads/2023/11/Group-16-1.png"

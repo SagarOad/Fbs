@@ -32,7 +32,7 @@ const TechTabs = () => {
       <h1 className="font-[inter] text-white font-[700] text-center relative mb-8 leading-[50px] text-[2.4rem]">
         Technologies we work with
       </h1>
-      <div className="flex justify-center items-center">
+      <div className="flex flex-wrap justify-center items-center">
         <Tab tabNumber={1} tabText="Mobile" />
         <Tab tabNumber={2} tabText="Frontend" />
         <Tab tabNumber={3} tabText="Database" />
