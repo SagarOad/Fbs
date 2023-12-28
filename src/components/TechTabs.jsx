@@ -28,7 +28,7 @@ const TechTabs = () => {
 
   return (
     <div className="our-tech">
-    <div className="max-w-screen-xl px-4 mx-auto text-center lg:py-28 lg:px-6">
+    <div className="max-w-screen-xl px-4 mx-auto text-center py-16 lg:py-28 lg:px-6">
       <h1 className="font-[inter] text-white font-[700] text-center relative mb-8 leading-[50px] text-[2.4rem]">
         Technologies we work with
       </h1>

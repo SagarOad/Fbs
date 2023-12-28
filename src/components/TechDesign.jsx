@@ -9,10 +9,10 @@ const TechDesign = () => {
   return (
     <div>
         <div className="flex flex-wrap mt-12 justify-evenly">
-        <SiAdobeillustrator className=" mx-2 text-white text-[7rem]" />
-        <CgFigma className=" mx-2 text-white text-[7rem]" />
-        <SiAdobeaftereffects className=" mx-2 text-white text-[7rem]" />
-        <SiAdobephotoshop className=" mx-2 text-white text-[7rem]" />
+        <SiAdobeillustrator className=" m-2 text-white text-[7rem]" />
+        <CgFigma className=" m-2 text-white text-[7rem]" />
+        <SiAdobeaftereffects className=" m-2 text-white text-[7rem]" />
+        <SiAdobephotoshop className=" m-2 text-white text-[7rem]" />
       </div>
     </div>
   )

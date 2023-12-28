@@ -32,7 +32,7 @@ const Awards = () => {
     slidesToScroll: 3,
   };
   return (
-    <div className="lg:py-24 border-b-[#e6e6e6] border-b-2">
+    <div className="py-16 lg:py-28  border-b-[#e6e6e6] border-b-2">
       <div className="max-w-screen-xl mx-auto">
         <h1 className="font-[inter] font-[700] text-center relative mb-8 leading-[50px] text-[2.4rem]">
           Certifications
@@ -40,7 +40,7 @@ const Awards = () => {
         <Slider {...settings}>
           {awards.map((award, index) => (
             <div className="" key={index}>
-              <div className="flex flex-col bg-white shadow-lg m-6 h-52 justify-center items-center">
+              <div className="flex flex-col bg-white shadow-lg m-2 lg:m-6 h-52 justify-center items-center">
                 <img className="w-[140px]" src={award.image} />
               </div>
             </div>

@@ -9,11 +9,11 @@ const TechDb = () => {
   return (
     <div>
       <div className="flex flex-wrap mt-12 justify-evenly">
-        <SiMongodb className=" mx-2 text-white text-[7rem]" />
-        <SiMysql className=" mx-2 text-white text-[7rem]" />
-        <SiMicrosoftsqlserver className=" mx-2 text-white text-[7rem]" />
-        <IoLogoFirebase className=" mx-2 text-white text-[7rem]" />
-        <SiRedis className=" mx-2 text-white text-[7rem]" />
+        <SiMongodb className=" m-2 text-white text-[7rem]" />
+        <SiMysql className=" m-2 text-white text-[7rem]" />
+        <SiMicrosoftsqlserver className=" m-2 text-white text-[7rem]" />
+        <IoLogoFirebase className=" m-2 text-white text-[7rem]" />
+        <SiRedis className=" m-2 text-white text-[7rem]" />
       </div>
     </div>
   );

@@ -7,7 +7,7 @@ const OurProducts = () => {
   return (
     <div className="py-32">
       <div className="mx-8 lg:mx-52 2xl:mx-80">
-        <h1 className="font-[inter] mb-20 px-8 xl:px-40 font-[700] text-center relative leading-[44px] xl:leading-[60px] text-[2rem] xl:text-[2.7rem]">
+        <h1 className="font-[inter] mb-20 px-0 lg:px-40 font-[700] text-center relative leading-[44px] xl:leading-[60px] text-[2rem] xl:text-[2.7rem]">
           We love transforming product ideas to digital realities.
         </h1>
 
@@ -78,7 +78,7 @@ const OurProducts = () => {
           </div>
 
           <div className="grid grid-cols-12 mt-40">
-            <div className="col-span-6 pr-20">
+            <div className="xl:col-span-6 col-span-12 lg:pr-20">
               <img
                 className=" w-[140px] mb-6 p-4"
                 src="https://studentofpakistan.com/images/sop.png"
@@ -101,9 +101,9 @@ const OurProducts = () => {
                 </button>
               </div>
             </div>
-            <div className="col-span-6">
+            <div className="xl:col-span-6 col-span-12">
               <img
-                className="w-[100%] h-[100%] border-[#00a652] border-2 rounded-[30px] object-cover object-left"
+                className="w-[100%] lg:mt-0 mt-8 h-[100%] border-[#00a652] border-2 rounded-[30px] object-cover object-left"
                 src={sop}
               />
             </div>

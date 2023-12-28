@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import img1 from "../assets/fbs.png"
 
 const Navbar = () => {
   return (
@@ -8,9 +9,10 @@ const Navbar = () => {
           href="#"
           class="flex items-center space-x-3 rtl:space-x-reverse"
         >
-          <span class="self-center text-[#4481eb] font-[inter] text-3xl font-bold">
+          {/* <span class="self-center text-[#4481eb] font-[inter] text-3xl font-bold">
             FBS
-          </span>
+          </span> */}
+          <img className=" w-[150px]" src={img1} />
         </a>
         <div class="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
           <button
