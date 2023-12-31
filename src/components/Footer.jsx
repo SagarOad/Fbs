@@ -92,8 +92,7 @@ const Footer = () => {
             Fame Business Solutions
           </header>
           <a className="link text-[15px] mt-2">
-            5th floor, Room#537, Clifton Block 9 The plaza shopping, 538 &,
-            Karachi, 75600
+            2nd floor, Office#214, Clifton Block 9 The plaza shopping center, Karachi
           </a>
         </nav>
         <nav className=" col-span-12 lg:col-span-4 lg:pr-20">
@@ -120,7 +119,7 @@ const Footer = () => {
         </div>
         <div className=" flex justify-center items-center">
           <p className=" text-[15px]">
-            © 2023 Cubix. All Rights Reserved. Terms of Use. Privacy Policy.
+            © 2023 Fame Business Solutions. All Rights Reserved. Terms of Use. Privacy Policy.
           </p>
         </div>
         <div className="grid grid-flow-col gap-4">

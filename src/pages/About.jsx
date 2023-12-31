@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import Navbar from "../components/Navbar";
 import Leadership from "../components/Leadership";
+import Developent from "../components/Developent";
 
 const About = () => {
   const [activeTab, setActiveTab] = useState(1);
@@ -33,7 +34,7 @@ const About = () => {
         </div>
         <div className="mt-4">
           {activeTab === 1 && <Leadership />}
-          {activeTab === 2 && <h1>Testing</h1>}
+          {activeTab === 2 && <Developent />}
           {activeTab === 3 && <h1>Testing</h1>}
         </div>
       </div>
