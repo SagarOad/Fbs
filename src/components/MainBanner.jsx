@@ -12,10 +12,10 @@ const MainBanner = () => {
       <div className="grid grid-cols-12 mx-8 lg:mx-52 2xl:mx-80 z-40">
         <div className="lg:col-span-8 col-span-12 py-20 lg:h-auto 2xl:h-[80vh] flex flex-col justify-center items-center">
           <div>
-            <h1 className="font-[cabinet-extrabold] relative leading-[68px] text-[4rem] lg:text-[5rem]">
-              The platform for creative{" "}
+            <h1 className="font-[cabinet-extrabold] relative leading-[78px] text-[4rem] lg:text-[5rem]">
+            Transforming Visions into{" "}
               <span className="text-[#25aae1] relative">
-                minds.
+              Digital Realities.
                 <svg
                   className="absolute right-0 bottom-0 mb-[-6px]"
                   class="cs4ft cjvbc cb0iz c3cwy cqn82 cmzpz"
@@ -33,8 +33,8 @@ const MainBanner = () => {
               </span>
             </h1>
             <p className="text-[18px] mt-8 font-[inter] lg:mr-[150px] font-400 text-[#6b7280]">
-              Our landing page template works on all devices, so you only have
-              to set it up once, and get beautiful results forever.
+              Elevate your business with Fame Business Solutions – Where Ideas
+              Transform into Success.
             </p>
 
             <div className=" flex mt-8">
@@ -47,9 +47,12 @@ const MainBanner = () => {
             </div>
           </div>
         </div>
-        <div className="lg:col-span-8 col-span-12 flex justify-center items-center sider-banner">
+        <div className="lg:col-span-4 col-span-12 flex justify-center items-center sider-banner">
           <div>
-            <img className=" w-[50%] hidden lg:block right-2 top-1 absolute" src={mock} />
+            <img
+              className=" w-[50%] hidden lg:block right-2 top-1 absolute"
+              src={mock}
+            />
           </div>
           {/* <div className="grid opacity-90 absolute bottom-0 right-50 grid-cols-12">
             <div className="col-span-6">

@@ -10,6 +10,7 @@ import Tech from '../components/Tech'
 import TechTabs from '../components/TechTabs'
 import Awards from '../components/Awards'
 import Footer from '../components/Footer'
+import Team from '../components/Team'
 
 const Home = () => {
   return (
@@ -20,6 +21,7 @@ const Home = () => {
         <OurProducts />
         <Portfolio />
         <Testimonials />
+        {/* <Team /> */}
         <TechTabs />
         <Awards />
         <Footer />
