@@ -96,17 +96,6 @@ body {
 
 
 
-
-.our-tech {
-    background-image: linear-gradient(
-    to right,
-    #04befe,
-    #25aae1,
-    #25aae1,
-    #04befe
-  );
-}
-
 ul li a {
   font-family: inter;
   font-size: 17px;
@@ -187,6 +176,25 @@ img.w-48 {
   opacity: 0.5;
 }
 
+.product-sec {
+  position: relative;
+  height: auto; 
+  background-image: url('./assets/Polygon.jpg'); 
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.product-sec::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: linear-gradient(to right, #25aae1, #4481eb, #3f86ed, #04befe);
+  opacity: 0.5;
+}
+
 
 .web-banner {
   position: relative;
@@ -207,4 +215,30 @@ img.w-48 {
 }
 .service-btnn {
   font-family: "Poppins" !important;
+}
+
+.our-tech {
+  position: relative;
+  background-image: url('./assets/Polygon1.jpg'); /* Replace 'your-image-url.jpg' with the actual path to your image */
+  background-size: cover; /* Adjust as needed */
+  background-position: center;
+}
+.our-tech::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: linear-gradient(to right, #25aae1, #4481eb, #3f86ed, #04befe);
+  opacity: 0.2; /* Adjust the opacity as needed */
+
+}
+
+.cursor-pointer.m-2.my-4.font-medium.text-\[18px\].border-\[black\].font-\[inter\].py-4.px-4.bg-transparent.text-gray-800 {
+  z-index: 99;
+}
+
+svg.m-2.text-white.text-\[7rem\] {
+  z-index: 99;
 }

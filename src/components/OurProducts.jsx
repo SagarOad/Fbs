@@ -6,12 +6,72 @@ import sop from "../assets/sop.png";
 const OurProducts = () => {
   return (
     <div className="py-32">
-      <div className="mx-8 lg:mx-52 2xl:mx-80">
-        <h1 className="font-[inter] mb-20 px-0 lg:px-40 font-[700] text-center relative leading-[44px] xl:leading-[60px] text-[2rem] xl:text-[2.7rem]">
-          We love transforming product ideas to digital realities.
-        </h1>
+      <div className="mx-8 2xl:mx-28">
+        <div className="">
+          <div className=" w-[80%] mx-auto">
+            <h1 className="font-[inter] text-center px-4 mb-32 font-[700] relative leading-[44px] xl:leading-[60px] text-[2rem] xl:text-[2.7rem]">
+              Our Products
+            </h1>
+          </div>
+        </div>
+        <div className="bg-[#4481eb] product-sec h-[auto] rounded-3xl py-8">
+          <div className="w-[80%] mt-[-120px] mx-auto grid grid-cols-12">
+            <div className=" col-span-4">
+              <div className="card w-[95%] mx-auto bg-base-100 shadow-xl">
+                <div className="card-body rounded-2xl h-[240px] bg-[#f9f9f9]">
+                  <img
+                    className=" w-[50%] my-4"
+                    src="https://www.famewheels.com/static/media/fame-wheels-logo.bdbcd17588780f149f99.png"
+                    alt="Shoes"
+                  />
+                  <h2 className="font-[inter] font-[700] relative  leading-[50px] text-[1.8rem]">
+                    Famewheels
+                  </h2>
+                  <p>If a dog chews shoes whose shoes does he choose?</p>
+                </div>
+              </div>
+            </div>
+            <div className=" col-span-4">
+              <div className="card w-[95%] mx-auto bg-base-100 shadow-xl ">
+                <div className="card-body rounded-2xl h-[240px] bg-[#f9f9f9]">
+                  <img
+                    className=" w-[30%] my-4"
+                    src="https://famehealthcaretech.com/wp-content/uploads/2023/11/Group-16-1.png"
+                    alt="Shoes"
+                  />
+                  <h2 className="font-[inter] font-[700] relative  leading-[50px] text-[1.8rem]">
+                    Famewheels
+                  </h2>
+                  <p>If a dog chews shoes whose shoes does he choose?</p>
+                </div>
+              </div>
+            </div>
+            <div className=" col-span-4">
+              <div className="card w-[95%] mx-auto bg-base-100 shadow-xl">
+                <div className="card-body rounded-2xl h-[240px] bg-[#f9f9f9]">
+                  <img
+                    className=" w-[15%] my-4"
+                    src="https://studentofpakistan.com/images/sop.png"
+                    alt="Shoes"
+                  />
+                  <h2 className="font-[inter] font-[700] relative  leading-[50px] text-[1.8rem]">
+                    Famewheels
+                  </h2>
+                  <p>If a dog chews shoes whose shoes does he choose?</p>
+                </div>
+              </div>
+            </div>
+          </div>
 
-        <div>
+          <div>
+            <div className=" w-[60%] ml-auto mt-4 py-8">
+              <h1 className="font-[inter] text-white mr-20 px-4 font-[700] relative leading-[44px] xl:leading-[60px] text-[2rem] xl:text-[2.7rem]">
+                We love transforming product ideas to digital realities.
+              </h1>
+            </div>
+          </div>
+        </div>
+        {/* <div>
           <div className="grid grid-cols-12">
             <div className="col-span-12 lg:col-span-6 flex justify-center items-center lg:pr-20">
               <div>
@@ -108,7 +168,7 @@ const OurProducts = () => {
               />
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );

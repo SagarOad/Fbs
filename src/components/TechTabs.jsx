@@ -15,9 +15,9 @@ const TechTabs = () => {
 
   const Tab = ({ tabNumber, tabText }) => (
     <div
-      className={`cursor-pointer mr-3 my-4 font-medium  text-[18px] border-[white] font-[inter] py-4 px-4 ${
+      className={`cursor-pointer m-2 my-4 font-medium  text-[18px] border-[black] font-[inter] py-4 px-4 ${
         activeTab === tabNumber
-          ? " text-[white] border-b-[3.5px] "
+          ? " text-[black] font-extrabold border-b-[3.5px] "
           : "bg-transparent text-gray-800"
       }`}
       onClick={() => handleTabClick(tabNumber)}
@@ -32,7 +32,7 @@ const TechTabs = () => {
       <h1 className="font-[inter] text-white font-[700] text-center relative mb-8 leading-[50px] text-[2.4rem]">
         Technologies we work with
       </h1>
-      <div className="flex flex-wrap justify-center items-center">
+      <div className="flex bg-white rounded-3xl flex-wrap justify-center items-center">
         <Tab tabNumber={1} tabText="Mobile" />
         <Tab tabNumber={2} tabText="Frontend" />
         <Tab tabNumber={3} tabText="Database" />

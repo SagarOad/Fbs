@@ -16,11 +16,11 @@ const Portfolio = () => {
         <Tabs />
 
       </div>
-      <div className=" flex justify-center pb-20 items-center">
+      {/* <div className=" flex justify-center pb-20 items-center">
         <button className="btn  rounded-none bg-[#4481eb] text-[white] hover:text-[black] font-medium font-[inter] h-[52px] w-[190px] text-[18px]">
           Explore More
         </button>
-      </div>
+      </div> */}
     </div>
   );
 };

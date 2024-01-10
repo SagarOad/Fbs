@@ -2,8 +2,6 @@ import React from "react";
 import Slider from "react-slick";
 
 const Testimonials = () => {
-
-
   const testimonials = [
     {
       quote:
@@ -50,15 +48,15 @@ const Testimonials = () => {
   };
 
   return (
-    <section className="bg-[#f9fafb] pt-20 pb-11 dark:bg-gray-900">
+    <section className="bg-white py-11 dark:bg-gray-900">
       <div className="max-w-screen-xl px-4 py-8 mx-auto text-center lg:py-16 lg:px-6">
+        <h1 className="font-[inter] font-[700] text-center relative mb-8 leading-[50px] text-[2.4rem]">
+          What our clients say!
+        </h1>
         <Slider {...settings}>
           {testimonials.map((testimonial, index) => (
             <div key={index}>
               <figure className="max-w-screen-md mx-auto">
-                <h1 className="font-[inter] font-[700] text-center relative mb-8 leading-[50px] text-[2.4rem]">
-                  We develop enterprise-grade software solutions for businesses.
-                </h1>
                 <blockquote>
                   <p className="text-2xl font-[inter] font-medium text-gray-900 dark:text-white">
                     {testimonial.quote}

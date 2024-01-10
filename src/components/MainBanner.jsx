@@ -32,7 +32,10 @@ const MainBanner = () => {
               Elevate your business with Fame Business Solutions – Where Ideas
               Transform into Success.
             </p>
-            <button className="btn mt-6 rounded-full bg-[#4481eb] text-[white] hover:text-[black] font-medium font-[inter] h-[52px] w-[190px] text-[18px]">
+            <button
+              onClick={() => document.getElementById("my_modal_4").showModal()}
+              className="btn mt-6 rounded-full bg-[#4481eb] text-[white] hover:text-[black] font-medium font-[inter] h-[52px] w-[190px] text-[18px]"
+            >
               Get Quote
             </button>
           </div>
