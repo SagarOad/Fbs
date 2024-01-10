@@ -2,13 +2,13 @@ import React from "react";
 
 const MainBanner = () => {
   return (
-    <div className="bg-[#f9fafb] h-[90vh] flex justify-center items-center relative overflow-hidden">
+    <div className="bg-[#f9fafb] h-[100%] py-20 flex justify-center items-center relative overflow-hidden">
       <div id="particles-js"></div>
       <div class="count-particles"></div>
       <div className="grid grid-cols-12 mx-8 2xl:mx-28 z-40">
         <div className="lg:col-span-6 col-span-12 py-20 lg:h-auto 2xl:h-[80vh] flex flex-col justify-center items-center">
           <div>
-            <h1 className="font-[cabinet-extrabold] text-[black] relative leading-[78px] text-[4rem] lg:text-[4rem]">
+            <h1 className="font-[cabinet-extrabold] mt-16 text-[black] relative leading-[78px] text-[4rem] lg:text-[4rem]">
               Transforming Visions into{" "}
               <span className="text-[#25aae1] relative">
                 Digital Realities.
