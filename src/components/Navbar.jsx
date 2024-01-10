@@ -3,8 +3,8 @@ import img1 from "../assets/fbs.png";
 
 const Navbar = () => {
   return (
-    <nav class="bg-white border-gray-200 dark:bg-gray-900">
-      <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+    <nav class="bg-[transparent] mb-[-113px] border-gray-200 dark:bg-gray-900">
+      <div class="mx-8 2xl:mx-28  flex flex-wrap items-center justify-between p-4">
         <button
           onClick={() => document.getElementById("my_modal_4").showModal()}
           href="#"
@@ -13,19 +13,19 @@ const Navbar = () => {
           {/* <span class="self-center text-[#4481eb] font-[inter] text-3xl font-bold">
             FBS
           </span> */}
-          <img className=" w-[150px]" src={img1} />
+          <img className=" z-[99] w-[150px]" src={img1} />
         </button>
         <div class="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
           <button
             type="button"
-            class="text-white font-[inter] bg-[#4481eb] focus:ring-4 focus:outline-none font-semibold px-8 py-3 text-center"
+            class="text-white z-[99] font-[inter] bg-[#4481eb] focus:ring-4 focus:outline-none font-semibold px-8 py-3 text-center"
           >
             Get started
           </button>
           <button
             data-collapse-toggle="navbar-cta"
             type="button"
-            class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+            class="inline-flex z-[99] items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
             aria-controls="navbar-cta"
             aria-expanded="false"
           >
@@ -51,11 +51,11 @@ const Navbar = () => {
           class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1"
           id="navbar-cta"
         >
-          <ul class="flex flex-col font-semibold p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+          <ul class="flex flex-col z-[99] font-semibold p-4 md:p-0 mt-4 border  rounded-lg  md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0  dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
             <li>
               <Link
                 to="/"
-                className="block py-2 px-3 md:p-0 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+                className="block font-[poppins] text-[18px] py-2 px-3 md:p-0 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
               >
                 Home
               </Link>
@@ -63,7 +63,7 @@ const Navbar = () => {
             <li>
               <Link
                 to="/about"
-                className="block py-2 px-3 md:p-0 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+                className="block font-[poppins] py-2 px-3 text-[18px] md:p-0 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
               >
                 About
               </Link>
@@ -72,7 +72,7 @@ const Navbar = () => {
               <button
                 id="dropdownNavbarLink"
                 data-dropdown-toggle="dropdownNavbar"
-                className="flex items-center justify-between w-full py-2 px-3 text-gray-900 hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 md:w-auto dark:text-white md:dark:hover:text-blue-500 dark:focus:text-white dark:hover:bg-gray-700 md:dark:hover:bg-transparent"
+                className="service-btnn flex items-center text-[18px] justify-between w-full py-2 px-3 text-gray-900 md:border-0 md:hover:text-blue-700 md:p-0 md:w-auto"
               >
                 Services{" "}
                 <svg

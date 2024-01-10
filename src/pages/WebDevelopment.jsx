@@ -6,6 +6,7 @@ import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 import ServiceData from "../data/ServiceData";
 import WebDev1 from "../components/WebDev";
+import WebInfo from "../components/WebInfo";
 
 const WebDev = () => {
   const web = ServiceData.webDev;
@@ -13,10 +14,7 @@ const WebDev = () => {
     <div>
       <Navbar />
       <ServiceBanner title={web.title} desc={web.desc} />
-      <h1 className="font-[cabinet-extrabold] my-12 text-center relative leading-[75px] text-[2.5rem]">
-        Web Development Portfolio
-      </h1>
-      <WebDev1 />
+      
       <EffectiveFeatures
         feature1={web.feature1}
         feature2={web.feature2}
@@ -27,6 +25,13 @@ const WebDev = () => {
         featureDesc3={web.featureDesc3}
         featureDesc4={web.featureDesc4}
       />
+      <h1 className="font-[cabinet-extrabold] my-12 text-center relative leading-[75px] text-[2.5rem]">
+        Web Development Portfolio
+      </h1>
+      <WebDev1 />
+
+      <WebInfo />
+
       <Footer />
     </div>
   );

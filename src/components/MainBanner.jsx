@@ -1,21 +1,17 @@
 import React from "react";
-import mainBanner from "../assets/main-banner.png";
-import img1 from "../assets/nft.jpg";
-import img2 from "../assets/lapt.jpg";
-import img3 from "../assets/graphic.jpg";
-import img4 from "../assets/video.jpg";
-import mock from "../assets/mock.png";
 
 const MainBanner = () => {
   return (
-    <div className="bg-[#f9fafb] relative overflow-hidden">
-      <div className="grid grid-cols-12 mx-8 lg:mx-52 2xl:mx-80 z-40">
-        <div className="lg:col-span-8 col-span-12 py-20 lg:h-auto 2xl:h-[80vh] flex flex-col justify-center items-center">
+    <div className="bg-[#f9fafb] h-[90vh] flex justify-center items-center relative overflow-hidden">
+      <div id="particles-js"></div>
+      <div class="count-particles"></div>
+      <div className="grid grid-cols-12 mx-8 2xl:mx-28 z-40">
+        <div className="lg:col-span-6 col-span-12 py-20 lg:h-auto 2xl:h-[80vh] flex flex-col justify-center items-center">
           <div>
-            <h1 className="font-[cabinet-extrabold] relative leading-[78px] text-[4rem] lg:text-[5rem]">
-            Transforming Visions into{" "}
+            <h1 className="font-[cabinet-extrabold] text-[black] relative leading-[78px] text-[4rem] lg:text-[4rem]">
+              Transforming Visions into{" "}
               <span className="text-[#25aae1] relative">
-              Digital Realities.
+                Digital Realities.
                 <svg
                   className="absolute right-0 bottom-0 mb-[-6px]"
                   class="cs4ft cjvbc cb0iz c3cwy cqn82 cmzpz"
@@ -36,50 +32,27 @@ const MainBanner = () => {
               Elevate your business with Fame Business Solutions – Where Ideas
               Transform into Success.
             </p>
+            <button className="btn mt-6 rounded-full bg-[#4481eb] text-[white] hover:text-[black] font-medium font-[inter] h-[52px] w-[190px] text-[18px]">
+              Get Quote
+            </button>
+          </div>
+        </div>
 
-            <div className=" flex mt-8">
-              <button className="primary-btn primary-btn-hover font-[inter]">
-                Get Quote
-              </button>
-              <button className="white-btn font-[inter] ml-6 shadow">
+        <div className="lg:col-span-6 col-span-12 flex justify-end items-center sider-banner">
+          <div class="w-full xl:w-[80%] pt-12 rounded-2xl  overflow-hidden">
+            <video
+              loop
+              autoPlay
+              muted
+              type="video/mp4"
+              src="https://video-previews.elements.envatousercontent.com/h264-video-previews/4f477773-31f6-4911-b5cc-0b76b3dbeb5c/8841628.mp4"
+            ></video>
+            <div className=" flex justify-end mt-8">
+              <button className="btn rounded-none shadow-lg bg-[white] text-[black] hover:text-[black] font-medium font-[inter] h-[52px] w-[190px] text-[18px]">
                 Learn more
               </button>
             </div>
           </div>
-        </div>
-        <div className="lg:col-span-4 col-span-12 flex justify-center items-center sider-banner">
-          <div>
-            <img
-              className=" w-[50%] hidden lg:block right-2 top-1 absolute"
-              src={mock}
-            />
-          </div>
-          {/* <div className="grid opacity-90 absolute bottom-0 right-50 grid-cols-12">
-            <div className="col-span-6">
-              <div className="">
-                <img
-                  className="object-cover mb-4 object-bottom h-[300px] w-[250px]"
-                  src={img1}
-                />
-                <img
-                  className="object-cover mb-4 object-bottom h-[300px] w-[250px]"
-                  src={img2}
-                />
-              </div>
-            </div>
-            <div className=" col-span-6 ml-2">
-              <div className=" mt-[-80px]">
-                <img
-                  className="object-cover mb-4 object-bottom h-[300px] w-[250px]"
-                  src={img4}
-                />
-                <img
-                  className="object-cover mb-4 object-bottom h-[300px] w-[250px]"
-                  src={img3}
-                />
-              </div>
-            </div>
-          </div> */}
         </div>
       </div>
     </div>
