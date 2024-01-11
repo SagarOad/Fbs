@@ -19,7 +19,7 @@ const Developent = () => {
       <div className=" flex justify-center items-center hover:-0 ease-in duration-300 w-full md:w-1/3 p-1 mb-16 md:p-2">
         <div>
           <img className=" w-48" src={img2} />
-          <h1 className=" text-center mt-4 font-[inter] text-[18px] font-bold">Fiza Iqbal</h1>
+          <h1 className=" text-center mt-4 font-[inter] text-[18px] font-bold">Fiza Iqbal</h1> 
           <p className="text-center text-[inter] text-[18px]">Marketing Head</p>
         </div>
       </div>
