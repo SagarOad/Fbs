@@ -8,7 +8,7 @@ const Leadership = () => {
     <div>
       <div className="flex w-full flex-wrap">
         <div className=" flex justify-center items-center hover:-0 ease-in duration-300 w-full md:w-1/3 p-1  md:p-2">
-          <div>
+          <div className="">
             <img className=" w-48 mx-auto rounded-full" src={img1} />
             <h1 className=" text-center mt-4 font-[inter] text-[18px] font-bold">
               MUNAWAR ABBAS SHAIKH
