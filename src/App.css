@@ -251,3 +251,13 @@ p.text-\[18px\].mt-6.font-\[inter\].mr-\[150px\].font-400.text-white {
   z-index: 99;
 }
 
+.mx-8.\32 xl\:mx-28 {
+  margin-bottom: -96px;
+}
+
+.main-nav {
+  z-index: 99;
+  position: relative;
+  background-color: transparent;
+}
+

@@ -1,168 +1,146 @@
-import { Link } from "react-router-dom";
-import img1 from "../assets/fbs.png";
+import React, { useState } from "react";
+import logo from "../assets/fbs.png";
+import { NavLink } from "react-router-dom";
 
 const Navbar2 = () => {
-  // mb-[-113px]
+  const [isDropdownVisible, setDropdownVisible] = useState(false);
+
+  const handleDropdownToggle = () => {
+    setDropdownVisible(!isDropdownVisible);
+  };
+
+  const handleDropdownClose = () => {
+    setDropdownVisible(false);
+  };
+
   return (
-    <nav class="bg-[transparent]  border-gray-200 dark:bg-gray-900">
-      <div class="mx-8 2xl:mx-28  flex flex-wrap items-center justify-between p-4">
-        <button
-          onClick={() => document.getElementById("my_modal_4").showModal()}
-          href="#"
-          class="flex items-center space-x-3 rtl:space-x-reverse"
-        >
-          {/* <span class="self-center text-[#4481eb] font-[inter] text-3xl font-bold">
-            FBS
-          </span> */}
-          <img className=" z-[99] w-[150px]" src={img1} />
-        </button>
-        <div class="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
-          <button
-            type="button"
-            class="text-white z-[99] font-[inter] bg-[#4481eb] focus:ring-4 focus:outline-none font-semibold px-8 py-3 text-center"
-          >
-            Get started
-          </button>
-          <button
-            data-collapse-toggle="navbar-cta"
-            type="button"
-            class="inline-flex z-[99] items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
-            aria-controls="navbar-cta"
-            aria-expanded="false"
-          >
-            <span class="sr-only">Open main menu</span>
-            <svg
-              class="w-5 h-5"
-              aria-hidden="true"
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 17 14"
+    <div className="bg-white relative z-[99] ">
+      <nav className=" py-3 mx-8 2xl:mx-28 border-gray-200 dark:bg-gray-900">
+        <div className="flex flex-wrap items-center justify-between mx-auto">
+          <NavLink to="/">
+            <a href="#main-banner" className="flex items-center cursor-pointer">
+              <img src={logo} className="md:w-[138px] w-[120px]" alt="Logo" />
+            </a>
+          </NavLink>
+          <div className="flex md:order-2 md:flex-row flex-col-reverse">
+            <button
+              onClick={() => document.getElementById("my_modal_4").showModal()}
+              className="btn rounded-full bg-[#4481eb] text-[white] hover:text-[black] font-medium font-[inter] h-[52px] w-[190px] text-[18px]"
             >
-              <path
-                stroke="currentColor"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                d="M1 1h15M1 7h15M1 13h15"
-              />
-            </svg>
-          </button>
+              Request a Quote
+            </button>
+            <button
+              type="button"
+              className="inline-flex justify-end items-center p-2 text-sm text-gray-500 rounded-lg md:hidden focus:outline-none focus:ring-2 focus:ring-transparent dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+              aria-controls="navbar-sticky"
+              aria-expanded={isDropdownVisible ? "true" : "false"}
+            >
+              <span className="sr-only">Open main menu</span>
+              <svg
+                className="w-6 h-6"
+                aria-hidden="true"
+                fill="currentColor"
+                viewBox="0 0 20 20"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  fillRule="evenodd"
+                  d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+                  clipRule="evenodd"
+                ></path>
+              </svg>
+            </button>
+          </div>
+          <div
+            className={`items-center justify-between w-full md:flex md:w-auto md:order-1 ${
+              isDropdownVisible ? "block" : "hidden"
+            }`}
+            id="navbar-sticky"
+            onMouseLeave={handleDropdownClose}
+            onClick={handleDropdownToggle}
+          >
+            <ul className="flex flex-col p-4 md:p-0 mt-4 md:flex-row md:space-x-8 md:mt-0 md:border-0">
+              <li className="pl-[3.75rem] py-2 md:py-0 md:border-0 border-t-2 border-white text-end">
+                <NavLink to="/">
+                  <a className="text-black hover:text-[#4481eb] font-[poppins] text-[18px] md:text-[18px]">
+                    Home
+                  </a>
+                </NavLink>
+              </li>
+              <li className="py-2 pl-[3.75rem] md:py-0 md:border-0 border-t-2 border-white text-end">
+                <div className="group relative cursor-pointer">
+                  <div>
+                    <a
+                      data-dropdown-toggle="dropdownHover"
+                      data-dropdown-trigger="hover"
+                      id="dropdownHoverButton"
+                      href="#services"
+                      className="text-black menu-hover hover:text-[#4481eb] font-[poppins] text-[18px] md:text-[18px]"
+                      aria-current="page"
+                      onMouseEnter={handleDropdownToggle}
+                    >
+                      Services
+                    </a>
+                  </div>
+                  <div
+                    className={`${
+                      isDropdownVisible ? "block" : "hidden"
+                    } invisible md:visible w-64 absolute z-50 flex font-[poppins] flex-col bg-gray-100 py-1 px-4 text-gray-800 shadow-xl`}
+                  >
+                    <NavLink to="/web">
+                      <a className="my-2 block border-b border-gray-100 py-1 font-semibold text-gray-500 hover:text-[#4481eb] md:mx-2">
+                        Mobile Application
+                      </a>
+                    </NavLink>
+                    <NavLink to="/app">
+                      <a className="my-2 block border-b border-gray-100 py-1 font-semibold text-gray-500 hover:text-[#4481eb] md:mx-2">
+                        Web Development
+                      </a>
+                    </NavLink>
+                    <NavLink to="/marketing">
+                      <a className="my-2 block border-b border-gray-100 py-1 font-semibold text-gray-500 hover:text-[#4481eb] md:mx-2">
+                        Digital Marketing
+                      </a>
+                    </NavLink>
+                    <NavLink to="/videoanime">
+                      <a className="my-2 block border-b border-gray-100 py-1 font-semibold text-gray-500 hover:text-[#4481eb] md:mx-2">
+                        2D / 3D Animation
+                      </a>
+                    </NavLink>
+                    <NavLink to="/design">
+                      <a className="my-2 block border-b border-gray-100 py-1 font-semibold text-gray-500 hover:text-[#4481eb] md:mx-2">
+                        Graphics Design
+                      </a>
+                    </NavLink>
+                  </div>
+                </div>
+              </li>
+              <li className="pl-[3.75rem] py-2 md:py-0 md:border-0 border-t-2 border-white text-end">
+                <NavLink to="/#projects">
+                  <a
+                    href="#projects"
+                    className="text-black hover:text-[#4481eb] font-[poppins] text-[18px] md:text-[18px]"
+                  >
+                    Projects
+                  </a>
+                </NavLink>
+              </li>
+              <li className="pl-[3.75rem] py-2 md:py-0 md:border-0 border-t-2 border-white text-end">
+                <NavLink to="/about">
+                  <a
+                    href="#pricing"
+                    className="text-black hover:text-[#4481eb] font-[poppins] text-[18px] md:text-[18px]"
+                  >
+                    About
+                  </a>
+                </NavLink>
+              </li>
+              {/* Add more navigation links here */}
+            </ul>
+          </div>
         </div>
-        <div
-          class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1"
-          id="navbar-cta"
-        >
-          <ul class="flex flex-col z-[99] font-semibold p-4 md:p-0 mt-4 border  rounded-lg  md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0  dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
-            <li>
-              <Link
-                to="/"
-                className="block font-[poppins] text-[18px] py-2 px-3 md:p-0 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
-              >
-                Home
-              </Link>
-            </li>
-            <li>
-              <Link
-                to="/about"
-                className="block font-[poppins] py-2 px-3 text-[18px] md:p-0 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
-              >
-                About
-              </Link>
-            </li>
-            <li>
-              <button
-                id="dropdownNavbarLink"
-                data-dropdown-toggle="dropdownNavbar"
-                className="service-btnn flex items-center text-[18px] justify-between w-full py-2 px-3 text-gray-900 md:border-0 md:hover:text-blue-700 md:p-0 md:w-auto"
-              >
-                Services{" "}
-                <svg
-                  class="w-2.5 h-2.5 ms-2.5"
-                  aria-hidden="true"
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 10 6"
-                >
-                  <path
-                    stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="m1 1 4 4 4-4"
-                  />
-                </svg>
-              </button>
-              <div
-                id="dropdownNavbar"
-                class="z-10 hidden font-normal bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700 dark:divide-gray-600"
-              >
-                <ul
-                  class="py-2 text-sm text-gray-700 dark:text-gray-200"
-                  aria-labelledby="dropdownLargeButton"
-                >
-
-                  <li>
-                    <Link
-                      to="/app"
-                      onClick={(e) => {
-                        e.preventDefault();
-                        history.push("/app");
-                      }}
-                      className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
-                    >
-                      Web Development
-                    </Link>
-                  </li>
-                  <li>
-                    <Link
-                      to="/web"
-                      className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
-                    >
-                      App Development
-                    </Link>
-                  </li>
-
-                  <li>
-                    <Link
-                      to="/design"
-                      className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
-                    >
-                      Graphic Design
-                    </Link>
-                  </li>
-
-                  <li>
-                    <Link
-                      to="/videoanime"
-                      className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
-                    >
-                      Video Editing & Animation
-                    </Link>
-                  </li>
-
-                  <li>
-                    <Link
-                      to="/marketing"
-                      className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
-                    >
-                      Digtal Marketing
-                    </Link>
-                  </li>
-                </ul>
-              </div>
-            </li>
-            <li>
-              <a
-                href="/#contact"
-                className="block cursor-pointer font-[poppins] py-2 px-3 text-[18px] md:p-0 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
-              >
-                Contact
-              </a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
+      </nav>
+    </div>
   );
 };
 

@@ -27,7 +27,7 @@ const OurProducts = () => {
                   <h2 className="font-[inter] font-[700] relative  leading-[50px] text-[1.8rem]">
                     Famewheels
                   </h2>
-                  <p>If a dog chews shoes whose shoes does he choose?</p>
+                  <p>Pakistan's No.1 Bidding Platform</p>
                 </div>
               </div>
             </div>
@@ -40,9 +40,11 @@ const OurProducts = () => {
                     alt="Shoes"
                   />
                   <h2 className="font-[inter] font-[700] relative  leading-[50px] text-[1.8rem]">
-                    Famewheels
+                    Fame Healthcare
                   </h2>
-                  <p>If a dog chews shoes whose shoes does he choose?</p>
+                  <p>
+                    Experience seamless healthcare with our 24/7 virtual clinic.
+                  </p>
                 </div>
               </div>
             </div>
@@ -55,17 +57,21 @@ const OurProducts = () => {
                     alt="Shoes"
                   />
                   <h2 className="font-[inter] font-[700] relative  leading-[50px] text-[1.8rem]">
-                    Famewheels
+                    Students Of Nature
                   </h2>
-                  <p>If a dog chews shoes whose shoes does he choose?</p>
+                  <p>
+                    {" "}
+                    With useful features, your dream and idea can become a
+                    reality.{" "}
+                  </p>
                 </div>
               </div>
             </div>
           </div>
 
           <div>
-            <div className=" w-[60%] ml-auto mt-4 py-8">
-              <h1 className="font-[inter] text-white mr-20 px-4 font-[700] relative leading-[44px] xl:leading-[60px] text-[2rem] xl:text-[2.7rem]">
+            <div className=" ml-auto mt-4 py-8">
+              <h1 className="font-[inter] text-center text-white mr-20 px-4 font-[700] relative leading-[44px] xl:leading-[60px] text-[2rem] xl:text-[2.7rem]">
                 We love transforming product ideas to digital realities.
               </h1>
             </div>

@@ -30,7 +30,7 @@ const About = () => {
     <div className="">
       <Navbar />
 
-      <div className=" bg-[#4481eb] py-24">
+      <div className=" bg-[#4481eb] pb-24 pt-[200px]">
         <div className="mx-8 lg:mx-52 2xl:mx-80 flex justify-center">
           <div className="about-container">
             <h1 className="font-[inter] font-[800] text-white text-left relative leading-[44px] xl:leading-[60px] text-[2rem] xl:text-[2.7rem]">
@@ -79,16 +79,11 @@ const About = () => {
         </div>
       </div>
 
-      <div className="lg:mx-52 2xl:mx-96">
-        <h1 className="font-[inter] font-[800] text-[#25aae1] mb-6 text-center relative leading-[44px] xl:leading-[60px] text-[2rem] xl:text-[2.7rem]">
+      <div className="mx-8 2xl:mx-28">
+        <h1 className="font-[inter] font-[800] text-[#25aae1] mb-12 text-center relative leading-[44px] xl:leading-[60px] text-[2rem] xl:text-[2.7rem]">
           Our Team
         </h1>
-
-        <div className="flex justify-center">
-          <Tab tabNumber={1} tabText="Leadership" />
-          <Tab tabNumber={2} tabText="Development" />
-          <Tab tabNumber={3} tabText="Creative" />
-        </div>
+        
         <div className="mt-4">
           {activeTab === 1 && <Leadership />}
           {activeTab === 2 && <Developent />}

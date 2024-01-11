@@ -13,7 +13,7 @@ const ServiceBanner = ({ title, desc }) => {
           </p>
         </div>
         <div className="col-span-4 flex justify-center items-center sider-banner">
-          <form className=" bg-white w-[100%] px-8 py-16">
+          <form className=" mt-[100px] bg-white w-[100%] px-8 py-16">
             <h1 className="font-[inter] mb-4 font-[700] relative text-[1.8rem]">
               Request for proposal
             </h1>

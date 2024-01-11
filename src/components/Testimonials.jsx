@@ -5,37 +5,28 @@ const Testimonials = () => {
   const testimonials = [
     {
       quote:
-        "Flowbite is just awesome. It contains tons of predesigned components...",
-      author: "Micheal Gough",
+        "As an orthopedic doctor, I'm impressed with their web development and digital marketing. Our revamped website and enhanced online visibility have brought in more patients. Highly recommended!",
+      author: "Dr Shohab Hyder Shaikh",
       position: "CEO at Google",
       image:
         "https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/michael-gouch.png",
     },
     {
       quote:
-        "Flowbite is just awesome. It contains tons of predesigned components...",
-      author: "Micheal Gough",
+        "Thrilled with the web development service! They created a modern, responsive website that perfectly represents our healthcare services. Seamless communication and exceptional attention to detail.",
+      author: "Mussarat Shah",
       position: "CEO at Google",
       image:
         "https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/michael-gouch.png",
     },
     {
       quote:
-        "Flowbite is just awesome. It contains tons of predesigned components...",
-      author: "Micheal Gough",
+        "I'm a doctor, and their web development expertise is fantastic. The visually appealing and functional website they created aligns perfectly with my medical practice. Highly recommended for fellow healthcare professionals!",
+      author: "Dr Kashif Shaikh",
       position: "CEO at Google",
       image:
         "https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/michael-gouch.png",
     },
-    {
-      quote:
-        "Flowbite is just awesome. It contains tons of predesigned components...",
-      author: "Micheal Gough",
-      position: "CEO at Google",
-      image:
-        "https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/michael-gouch.png",
-    },
-    // Add more testimonials here
   ];
 
   const settings = {
@@ -63,17 +54,9 @@ const Testimonials = () => {
                   </p>
                 </blockquote>
                 <figcaption className="flex items-center justify-center mt-6 space-x-3">
-                  <img
-                    className="w-6 h-6 rounded-full"
-                    src={testimonial.image}
-                    alt="profile picture"
-                  />
                   <div className="flex items-center divide-x-2 divide-gray-500 dark:divide-gray-700">
                     <div className="pr-3 font-medium text-gray-900 dark:text-white">
                       {testimonial.author}
-                    </div>
-                    <div className="pl-3 text-sm font-light text-gray-500 dark:text-gray-400">
-                      {testimonial.position}
                     </div>
                   </div>
                 </figcaption>
