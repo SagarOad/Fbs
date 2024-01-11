@@ -4,7 +4,7 @@ import img1 from "../assets/fbs.png";
 const Footer = () => {
   return (
     <div className="bg-[#f9fafb]">
-      <div className="max-w-screen-xl border-b-[#e6e6e6] border-b-2 px-4 mx-auto text-center py-16 lg:py-28 lg:px-6">
+      <div id="contact" className="max-w-screen-xl border-b-[#e6e6e6] border-b-2 px-4 mx-auto text-center py-16 lg:py-28 lg:px-6">
         <h1 className="font-[inter] font-[700] text-center relative mb-12 leading-[50px] text-[2.4rem]">
           14 years of building digital products and we are just getting started!
         </h1>

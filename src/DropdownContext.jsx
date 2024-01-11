@@ -1,12 +1,13 @@
-import React, { createContext, useContext, useState } from 'react';
+// DropdownContext.js
+import React, { createContext, useState } from 'react';
 
 const DropdownContext = createContext();
 
-export const DropdownProvider = ({ children }) => {
+const DropdownProvider = ({ children }) => {
   const [isDropdownOpen, setDropdownOpen] = useState(false);
 
   const toggleDropdown = () => {
-    setDropdownOpen((prevState) => !prevState);
+    setDropdownOpen((prev) => !prev);
   };
 
   return (
@@ -16,10 +17,4 @@ export const DropdownProvider = ({ children }) => {
   );
 };
 
-export const useDropdown = () => {
-  const context = useContext(DropdownContext);
-  if (!context) {
-    throw new Error('useDropdown must be used within a DropdownProvider');
-  }
-  return context;
-};
+export { DropdownProvider, DropdownContext };

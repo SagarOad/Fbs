@@ -1,8 +1,18 @@
 import { Link } from "react-router-dom";
+import { useState } from "react";
 import img1 from "../assets/fbs.png";
 
 const Navbar = () => {
-  // 
+  const [isDropdownVisible, setDropdownVisible] = useState(false);
+
+  const handleDropdownToggle = () => {
+    setDropdownVisible(!isDropdownVisible);
+  };
+
+  const handleDropdownClose = () => {
+    setDropdownVisible(false);
+  };
+
   return (
     <nav class="bg-[transparent] mb-[-113px] border-gray-200 dark:bg-gray-900">
       <div class="mx-8 2xl:mx-28  flex flex-wrap items-center justify-between p-4">
@@ -19,6 +29,7 @@ const Navbar = () => {
         <div class="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
           <button
             type="button"
+            onClick={() => document.getElementById("my_modal_4").showModal()}
             class="text-white z-[99] font-[inter] bg-[#4481eb] focus:ring-4 focus:outline-none font-semibold px-8 py-3 text-center"
           >
             Get started
@@ -145,6 +156,14 @@ const Navbar = () => {
                   </li>
                 </ul>
               </div>
+            </li>
+            <li>
+              <a
+                href="/#contact"
+                className="block cursor-pointer font-[poppins] py-2 px-3 text-[18px] md:p-0 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+              >
+                Contact
+              </a>
             </li>
           </ul>
         </div>
