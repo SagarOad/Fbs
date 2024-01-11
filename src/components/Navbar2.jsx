@@ -1,10 +1,10 @@
 import { Link } from "react-router-dom";
 import img1 from "../assets/fbs.png";
 
-const Navbar = () => {
-  // 
+const Navbar2 = () => {
+  // mb-[-113px]
   return (
-    <nav class="bg-[transparent] mb-[-113px] border-gray-200 dark:bg-gray-900">
+    <nav class="bg-[transparent]  border-gray-200 dark:bg-gray-900">
       <div class="mx-8 2xl:mx-28  flex flex-wrap items-center justify-between p-4">
         <button
           onClick={() => document.getElementById("my_modal_4").showModal()}
@@ -100,9 +100,14 @@ const Navbar = () => {
                   class="py-2 text-sm text-gray-700 dark:text-gray-200"
                   aria-labelledby="dropdownLargeButton"
                 >
+
                   <li>
                     <Link
                       to="/app"
+                      onClick={(e) => {
+                        e.preventDefault();
+                        history.push("/app");
+                      }}
                       className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
                     >
                       Web Development
@@ -153,4 +158,4 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
+export default Navbar2;

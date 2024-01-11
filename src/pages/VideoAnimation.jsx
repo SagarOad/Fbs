@@ -3,9 +3,10 @@ import ServiceBanner from "../components/ServiceBanner";
 import Portfolio from "../components/Portfolio";
 import EffectiveFeatures from "../components/EffectiveFeatures";
 import Footer from "../components/Footer";
-import Navbar from "../components/Navbar";
+import Navbar from "../components/Navbar2";
 import ServiceData from "../data/ServiceData";
 import VideoAnime1 from "../components/VideoAnime";
+import VideoInfo from "../components/VideoInfo";
 
 const VideoAnimation = () => {
   const videoAnime = ServiceData.videoAnime;
@@ -27,6 +28,7 @@ const VideoAnimation = () => {
         featureDesc3={videoAnime.featureDesc3}
         featureDesc4={videoAnime.featureDesc4}
       />
+      <VideoInfo />
       <Footer />
     </div>
   );

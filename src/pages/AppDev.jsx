@@ -3,9 +3,11 @@ import ServiceBanner from "../components/ServiceBanner";
 import Portfolio from "../components/Portfolio";
 import EffectiveFeatures from "../components/EffectiveFeatures";
 import Footer from "../components/Footer";
-import Navbar from "../components/Navbar";
+import Navbar from "../components/Navbar2";
 import ServiceData from "../data/ServiceData";
 import AppDev1 from "../components/AppDev";
+import AppInfo from "../components/AppInfo";
+import AppProcess from "../components/AppProcess";
 
 const AppDev = () => {
   const mobileDev = ServiceData.mobileApp;
@@ -27,6 +29,8 @@ const AppDev = () => {
         featureDesc3={mobileDev.featureDesc3}
         featureDesc4={mobileDev.featureDesc4}
       />
+      <AppInfo />
+      <AppProcess />
       <Footer />
     </div>
   );

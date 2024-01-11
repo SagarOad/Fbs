@@ -50,11 +50,11 @@ const MainBanner = () => {
               type="video/mp4"
               src="https://video-previews.elements.envatousercontent.com/h264-video-previews/4f477773-31f6-4911-b5cc-0b76b3dbeb5c/8841628.mp4"
             ></video>
-            <div className=" flex justify-end mt-8">
+            {/* <div className=" flex justify-end mt-8">
               <button className="btn rounded-none shadow-lg bg-[white] text-[black] hover:text-[black] font-medium font-[inter] h-[52px] w-[190px] text-[18px]">
                 Learn more
               </button>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

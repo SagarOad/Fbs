@@ -3,7 +3,7 @@ import ServiceBanner from "../components/ServiceBanner";
 import Portfolio from "../components/Portfolio";
 import EffectiveFeatures from "../components/EffectiveFeatures";
 import Footer from "../components/Footer";
-import Navbar from "../components/Navbar";
+import Navbar from "../components/Navbar2";
 import ServiceData from "../data/ServiceData";
 import WebDev1 from "../components/WebDev";
 import WebInfo from "../components/WebInfo";

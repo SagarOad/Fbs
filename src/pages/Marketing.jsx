@@ -3,8 +3,9 @@ import ServiceBanner from "../components/ServiceBanner";
 import Portfolio from "../components/Portfolio";
 import EffectiveFeatures from "../components/EffectiveFeatures";
 import Footer from "../components/Footer";
-import Navbar from "../components/Navbar";
+import Navbar from "../components/Navbar2";
 import ServiceData from "../data/ServiceData";
+import MarketingInfo from "../components/MarketingInfo";
 
 const Marketing = () => {
   const marketing = ServiceData.marketing;
@@ -23,6 +24,7 @@ const Marketing = () => {
         featureDesc3={marketing.featureDesc3}
         featureDesc4={marketing.featureDesc4}
       />
+      <MarketingInfo />
       <Footer />
     </div>
   );

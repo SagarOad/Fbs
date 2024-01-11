@@ -242,3 +242,12 @@ img.w-48 {
 svg.m-2.text-white.text-\[7rem\] {
   z-index: 99;
 }
+
+form.bg-white.w-\[100\%\].px-8.py-16 {
+  z-index: 99;
+}
+
+p.text-\[18px\].mt-6.font-\[inter\].mr-\[150px\].font-400.text-white {
+  z-index: 99;
+}
+

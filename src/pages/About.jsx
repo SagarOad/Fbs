@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Navbar from "../components/Navbar";
+import Navbar from "../components/Navbar2";
 import Leadership from "../components/Leadership";
 import Developent from "../components/Developent";
 import Creative from "../components/Creative";
@@ -30,13 +30,13 @@ const About = () => {
     <div className="">
       <Navbar />
 
-      <div className="services-sec py-24">
+      <div className=" bg-[#4481eb] py-24">
         <div className="mx-8 lg:mx-52 2xl:mx-80 flex justify-center">
-          <div className="">
+          <div className="about-container">
             <h1 className="font-[inter] font-[800] text-white text-left relative leading-[44px] xl:leading-[60px] text-[2rem] xl:text-[2.7rem]">
               About
             </h1>
-            <p className="text-[18px] mt-4 font-[inter] lg:mr-[150px] font-400 text-white">
+            <p className="text-[18px] position-relative  mt-4 font-[inter] lg:mr-[150px] font-400 text-white">
               At Fame Business Solutions, we are a dynamic team of experts
               passionate about crafting innovative digital solutions. Our
               commitment lies in creating impactful experiences, solving
