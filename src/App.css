@@ -266,3 +266,19 @@ h1.font-\[cabinet-bold\].text-\[\#ffffff\].relative.leading-\[75px\].text-\[4rem
 .modal-box.w-11\/12.max-w-3xl {
   background: white !important;
 }
+
+
+::-webkit-scrollbar {
+  width: 7px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--c-green-secondary);
+  border-radius: 20px;
+  border: 5px solid #25aae1;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--c-green-secondary);
+}

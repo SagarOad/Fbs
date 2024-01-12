@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import logo from "../assets/fbs.png";
 import { NavLink } from "react-router-dom";
+import ScrollProgress from "./ScrollProgress";
 
 const Navbar2 = () => {
   const [isDropdownVisible, setDropdownVisible] = useState(false);
@@ -14,6 +15,8 @@ const Navbar2 = () => {
   };
 
   return (
+    <>
+    <ScrollProgress />
     <div className="bg-white relative z-[99] ">
       <nav className=" py-3 mx-8 2xl:mx-28 border-gray-200 dark:bg-gray-900">
         <div className="flex flex-wrap items-center justify-between mx-auto">
@@ -141,6 +144,7 @@ const Navbar2 = () => {
         </div>
       </nav>
     </div>
+    </>
   );
 };
 
