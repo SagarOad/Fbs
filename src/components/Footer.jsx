@@ -21,7 +21,7 @@ const Footer = () => {
           14 years of building digital products and we are just getting started!
         </h1>
 
-        <div className="">
+        <div className=" flex justify-center items-center">
           {/* You can open the modal using document.getElementById('ID').showModal() method */}
           <button
             className="btn rounded-none bg-[#4481eb] text-[white] hover:text-[black] font-medium font-[inter] h-[66px] w-[260px] text-[20px]"
@@ -29,10 +29,10 @@ const Footer = () => {
           >
             START A PROJECT
           </button>
-          <dialog id="my_modal_4" className="modal relative">
+          <dialog id="my_modal_4" className="modal">
             <div className="modal-box w-11/12 max-w-3xl">
               <div className=" w-[100%]">
-                <h1 className=" text-[24px] font-bold">Tell us more</h1>
+                <div></div>
               </div>
               <div className="">
                 <form method="dialog">
@@ -85,7 +85,7 @@ const Footer = () => {
                     </button>
                   </form>
 
-                  <button className="btn top-0 right-0 absolute font-medium font-[inter]  text-[22px]">
+                  <button className="btn top-0 right-0 absolute font-medium font-[inter] h-[50px] text-[18px]">
                     <IoClose className=" text-black" />
                   </button>
                 </form>

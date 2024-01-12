@@ -76,7 +76,7 @@ const Navbar = () => {
                       data-dropdown-toggle="dropdownHover"
                       data-dropdown-trigger="hover"
                       id="dropdownHoverButton"
-                      href="#services"
+                      href="#"
                       className="text-black menu-hover hover:text-[#4481eb] font-[poppins] text-[18px] md:text-[18px]"
                       aria-current="page"
                       onMouseEnter={handleDropdownToggle}
