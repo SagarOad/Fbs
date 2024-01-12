@@ -9,16 +9,16 @@ const OurProducts = () => {
       <div className="mx-8 2xl:mx-28">
         <div className="">
           <div className=" w-[80%] mx-auto">
-            <h1 className="font-[inter] text-center px-4 mb-32 font-[700] relative leading-[44px] xl:leading-[60px] text-[2rem] xl:text-[2.7rem]">
+            <h1 className="font-[inter] text-center px-4 mb-2 xl:mb-32 font-[700] relative leading-[44px] xl:leading-[60px] text-[2rem] xl:text-[2.7rem]">
               Our Products
             </h1>
           </div>
         </div>
         <div className="bg-[#4481eb] product-sec h-[auto] rounded-3xl py-8">
-          <div className="w-[80%] mt-[-120px] mx-auto grid grid-cols-12">
+          <div className="w-[80%] xl:mt-[-120px] mx-auto grid grid-cols-12">
             <div className="col-span-12 mb-4 lg:mb-0 lg:col-span-4">
               <div className="card w-[95%] mx-auto bg-base-100 shadow-xl">
-                <div className="card-body rounded-2xl h-[240px] bg-[#f9f9f9]">
+                <div className="card-body rounded-2xl h-[265px] bg-[#f9f9f9]">
                   <img
                     className=" w-[50%] my-4"
                     src="https://www.famewheels.com/static/media/fame-wheels-logo.bdbcd17588780f149f99.png"
@@ -33,7 +33,7 @@ const OurProducts = () => {
             </div>
             <div className="col-span-12 mb-4 lg:mb-0 lg:col-span-4">
               <div className="card w-[95%] mx-auto bg-base-100 shadow-xl ">
-                <div className="card-body rounded-2xl h-[240px] bg-[#f9f9f9]">
+                <div className="card-body rounded-2xl h-auto bg-[#f9f9f9]">
                   <img
                     className=" w-[30%] my-4"
                     src="https://famehealthcaretech.com/wp-content/uploads/2023/11/Group-16-1.png"
@@ -50,7 +50,7 @@ const OurProducts = () => {
             </div>
             <div className="col-span-12 mb-4 lg:mb-0 lg:col-span-4">
               <div className="card w-[95%] mx-auto bg-base-100 shadow-xl">
-                <div className="card-body rounded-2xl h-[240px] bg-[#f9f9f9]">
+                <div className="card-body rounded-2xl h-[265px] bg-[#f9f9f9]">
                   <img
                     className=" w-[15%] my-4"
                     src="https://studentofpakistan.com/images/sop.png"

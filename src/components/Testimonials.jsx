@@ -13,7 +13,7 @@ const Testimonials = () => {
     },
     {
       quote:
-        "Thrilled with the web development service! They created a modern, responsive website that perfectly represents our healthcare services. Seamless communication and exceptional attention to detail.",
+        "Thrilled with the web development service! They created a modern, responsive website that perfectly represents our services. Seamless communication and exceptional attention to detail.",
       author: "Mussarat Shah",
       position: "CEO at Google",
       image:

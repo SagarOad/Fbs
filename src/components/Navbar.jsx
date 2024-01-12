@@ -6,8 +6,9 @@ const Navbar = () => {
   const [isDropdownVisible, setDropdownVisible] = useState(false);
 
   const handleDropdownToggle = () => {
-    setDropdownVisible(!isDropdownVisible);
+    setDropdownVisible((prev) => !prev);
   };
+  
 
   const handleDropdownClose = () => {
     setDropdownVisible(false);
@@ -31,6 +32,7 @@ const Navbar = () => {
             </button>
             <button
               type="button"
+              onClick={handleDropdownToggle}
               className="inline-flex justify-end items-center p-2 text-sm text-gray-500 rounded-lg md:hidden focus:outline-none focus:ring-2 focus:ring-transparent dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
               aria-controls="navbar-sticky"
               aria-expanded={isDropdownVisible ? "true" : "false"}
@@ -59,7 +61,7 @@ const Navbar = () => {
             onMouseLeave={handleDropdownClose}
             onClick={handleDropdownToggle}
           >
-            <ul className="flex flex-col p-4 md:p-0 mt-4 md:flex-row md:space-x-8 md:mt-0 md:border-0">
+            <ul className="flex flex-col bg-transparent p-4 md:p-0 mt-4 md:flex-row md:space-x-8 md:mt-0 md:border-0">
               <li className="pl-[3.75rem] py-2 md:py-0 md:border-0 border-t-2 border-white text-end">
                 <NavLink to="/">
                   <a className="text-black hover:text-[#4481eb] font-[poppins] text-[18px] md:text-[18px]">

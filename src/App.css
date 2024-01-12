@@ -243,6 +243,11 @@ p.text-\[18px\].mt-6.font-\[inter\].mr-\[150px\].font-400.text-white {
 .mx-8.\32 xl\:mx-28 {
   margin-bottom: -96px;
 }
+@media screen and (max-width: 980px) {
+  .mx-8.\32 xl\:mx-28 {
+    margin-bottom: 0px;
+  }
+}
 
 .main-nav {
   z-index: 99;
@@ -256,4 +261,8 @@ h1.font-\[cabinet-bold\].text-\[\#ffffff\].relative.leading-\[75px\].text-\[4rem
 
 .flex.group.hover\:bg-white.p-12.h-58.w-72.transition-all.flex-col.justify-center.items-center {
   position: relative;
+}
+
+.modal-box.w-11\/12.max-w-3xl {
+  background: white !important;
 }

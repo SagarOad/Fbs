@@ -5,7 +5,7 @@ import Tabs from "./Tabs";
 const Portfolio = () => {
   return (
     <div className="bg-[#f9fafb]">
-      <div className="lg:mx-52 pt-20 pb-14 2xl:mx-80">
+      <div className="lg:mx-52 pt-20 px-4 pb-14 2xl:mx-80">
         <h1 className="font-[cabinet-extrabold] text-center relative leading-[75px] text-[2.5rem]">
           App Portfolio
         </h1>

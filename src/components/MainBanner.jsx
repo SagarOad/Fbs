@@ -8,7 +8,7 @@ const MainBanner = () => {
       <div className="grid grid-cols-12 mx-8 2xl:mx-28 z-40">
         <div className="lg:col-span-6 col-span-12 py-20 lg:h-auto 2xl:h-[80vh] flex flex-col justify-center items-center">
           <div>
-            <h1 className="font-[cabinet-extrabold] mt-16 text-[black] relative leading-[78px] text-[4rem] lg:text-[4rem]">
+            <h1 className="font-[cabinet-extrabold]  text-[black] relative leading-[78px] text-[4rem] lg:text-[4rem]">
               Transforming Visions into{" "}
               <span className="text-[#25aae1] relative">
                 Digital Realities.
@@ -42,7 +42,7 @@ const MainBanner = () => {
         </div>
 
         <div className="lg:col-span-6 col-span-12 flex justify-end items-center sider-banner">
-          <div class="w-full xl:w-[80%] pt-12 rounded-2xl  overflow-hidden">
+          <div class="w-full xl:w-[80%] rounded-2xl  overflow-hidden">
             <video
               loop
               autoPlay

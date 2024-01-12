@@ -8,6 +8,8 @@ import { FaFacebookF } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa";
 
+import { IoClose } from "react-icons/io5";
+
 const Footer = () => {
   return (
     <div className="bg-[#f9fafb]">
@@ -19,7 +21,7 @@ const Footer = () => {
           14 years of building digital products and we are just getting started!
         </h1>
 
-        <div className=" flex justify-center items-center">
+        <div className="">
           {/* You can open the modal using document.getElementById('ID').showModal() method */}
           <button
             className="btn rounded-none bg-[#4481eb] text-[white] hover:text-[black] font-medium font-[inter] h-[66px] w-[260px] text-[20px]"
@@ -27,9 +29,11 @@ const Footer = () => {
           >
             START A PROJECT
           </button>
-          <dialog id="my_modal_4" className="modal">
-            <div className="modal-box w-11/12 max-w-5xl">
-              <p className="py-4">Click the button below to close</p>
+          <dialog id="my_modal_4" className="modal relative">
+            <div className="modal-box w-11/12 max-w-3xl">
+              <div className=" w-[100%]">
+                <h1 className=" text-[24px] font-bold">Tell us more</h1>
+              </div>
               <div className="">
                 <form method="dialog">
                   <form class="">
@@ -81,8 +85,8 @@ const Footer = () => {
                     </button>
                   </form>
 
-                  <button className="btn rounded-none mt-6 bg-[#969696] text-[white] hover:text-[black] font-medium font-[inter] h-[50px] w-[150px] text-[18px]">
-                    Close
+                  <button className="btn top-0 right-0 absolute font-medium font-[inter]  text-[22px]">
+                    <IoClose className=" text-black" />
                   </button>
                 </form>
               </div>
