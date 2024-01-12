@@ -14,6 +14,7 @@ import img11 from "../assets/team/raza.png";
 import img12 from "../assets/team/muslim.jpeg";
 import img13 from "../assets/team/bilal-md.jpeg";
 import img14 from "../assets/team/asma.jpeg";
+import img15 from "../assets/team/yasir.jpg";
 
 const Leadership = () => {
   return (
@@ -25,7 +26,7 @@ const Leadership = () => {
             <h1 className=" text-center mt-4 font-[inter] text-[22px] font-bold">
               MUNAWAR ABBAS SHAIKH
             </h1>
-            <p className="text-center text-[inter] text-[22px]">Chairman</p>
+            <p className="text-center text-[inter] text-[22px]">Chairman/CEO</p>
             <p className=" text-center text-[18px]">
               Munawar Abbas Shaikh is Chairman Fame Business Soutions, he has
               done a MBA and LLB. He has more than 18 years of experience in
@@ -115,13 +116,14 @@ const Leadership = () => {
         </div>
         <div className=" col-span-12 lg:col-span-3  w-full">
           <div>
-            <img className=" w-48" src={img5} />
+            <img
+              className=" rounded-full mx-auto h-[180px] w-[180px] object-cover object-top"
+              src={img14}
+            />
             <h1 className=" text-center mt-4 font-[inter] text-[22px] font-bold">
-              FIZA IQBAL
+              Asma Ul Husna
             </h1>
-            <p className="text-center text-[inter] text-[22px]">
-              Digital Marketing Head
-            </p>
+            <p className="text-center text-[inter] text-[22px]">HR Manager</p>
           </div>
         </div>
       </div>
@@ -137,6 +139,20 @@ const Leadership = () => {
               Sagar Oad
             </h1>
             <p className="text-center text-[inter] text-[22px]">
+              Frontend Developer
+            </p>
+          </div>
+        </div>
+        <div className=" col-span-12 lg:col-span-3  w-full">
+          <div>
+            <img
+              className=" rounded-full mx-auto h-[180px] w-[180px] object-cover object-top"
+              src={img15}
+            />
+            <h1 className=" text-center mt-4 font-[inter] text-[22px] font-bold">
+              Muhammad Yasir
+            </h1>
+            <p className="text-center text-[inter] text-[22px]">
               Full Stack Developer
             </p>
           </div>
@@ -150,7 +166,9 @@ const Leadership = () => {
             <h1 className=" text-center mt-4 font-[inter] text-[22px] font-bold">
               Zeeshan Ali
             </h1>
-            <p className="text-center text-[inter] text-[22px]">Mern Stack Developer</p>
+            <p className="text-center text-[inter] text-[22px]">
+              Mern Stack Developer
+            </p>
           </div>
         </div>
         <div className=" col-span-12 lg:col-span-3  w-full">
@@ -167,7 +185,11 @@ const Leadership = () => {
             </p>
           </div>
         </div>
-        <div className=" col-span-12 lg:col-span-3  w-full">
+        
+      </div>
+
+      <div className="grid grid-cols-12 w-full mb-40">
+      <div className=" col-span-12 lg:col-span-3  w-full">
           <div>
             <img
               className=" rounded-full mx-auto h-[180px] w-[180px] object-cover object-top"
@@ -181,9 +203,6 @@ const Leadership = () => {
             </p>
           </div>
         </div>
-      </div>
-
-      <div className="grid grid-cols-12 w-full mb-40">
         <div className=" col-span-12 lg:col-span-3  w-full">
           <div>
             <img
@@ -200,15 +219,12 @@ const Leadership = () => {
         </div>
         <div className=" col-span-12 lg:col-span-3  w-full">
           <div>
-            <img
-              className=" rounded-full mx-auto h-[180px] w-[180px] object-cover object-top"
-              src={img14}
-            />
+            <img className=" w-48" src={img5} />
             <h1 className=" text-center mt-4 font-[inter] text-[22px] font-bold">
-              Asma Ul Husna
+              FIZA IQBAL
             </h1>
             <p className="text-center text-[inter] text-[22px]">
-              HR Manager
+              Digital Marketing Head
             </p>
           </div>
         </div>

@@ -108,7 +108,7 @@ const Navbar2 = () => {
                       </a>
                     </NavLink>
                     <NavLink to="/design">
-                      <a className="my-2 block border-b border-gray-100 py-1 font-semibold text-gray-500 hover:text-[#4481eb] md:mx-2">
+                      <a className="my-2 block border-b z-[99] border-gray-100 py-1 font-semibold text-gray-500 hover:text-[#4481eb] md:mx-2">
                         Graphics Design
                       </a>
                     </NavLink>
