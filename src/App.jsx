@@ -10,6 +10,7 @@ import { useRoutes } from "react-router-dom";
 import GraphicDesign from "./pages/GraphicDesign";
 import VideoAnimation from "./pages/VideoAnimation";
 import Marketing from "./pages/Marketing";
+import StartupInvestment from "./pages/StartupInvestment";
 
 function App() {
   const routes = useRoutes([
@@ -20,6 +21,7 @@ function App() {
     { path: "/design", element: <GraphicDesign /> },
     { path: "/videoanime", element: <VideoAnimation /> },
     { path: "/marketing", element: <Marketing /> },
+    { path: "/startupinvestment", element: <StartupInvestment /> },
   ]);
   return routes;
 }

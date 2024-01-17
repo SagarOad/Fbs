@@ -8,7 +8,7 @@ const MainBanner = () => {
       <div className="grid grid-cols-12 mx-8 2xl:mx-28 z-40">
         <div className="lg:col-span-6 col-span-12 py-20 lg:h-auto 2xl:h-[80vh] flex flex-col justify-center items-center">
           <div>
-            <h1 className="font-[cabinet-extrabold]  text-[black] relative leading-[78px] text-[4rem] lg:text-[4rem]">
+            <h1 className="font-[cabinet-extrabold] text-[black] relative leading-[56px] md:leading-[78px] text-[3rem] md:text-[4rem] lg:text-[4rem]">
               Transforming Visions into{" "}
               <span className="text-[#25aae1] relative">
                 Digital Realities.

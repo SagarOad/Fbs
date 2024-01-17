@@ -42,9 +42,8 @@ const Leadership = () => {
             </h1>
             <p className="text-center text-[inter] text-[22px]">COO</p>
             <p className=" text-center text-[18px]">
-              Munawar Abbas Shaikh is Chairman Fame Business Soutions, he has
-              done a MBA and LLB. He has more than 18 years of experience in
-              diverse industries.
+              Abdul Sattar Abro is Chief Operating Officer and he has more than
+              14 years of Customer Service & Business Development experience.
             </p>
           </div>
         </div>
@@ -58,9 +57,8 @@ const Leadership = () => {
               General Management
             </p>
             <p className="text-center text-[inter] text-[18px]">
-              Syed Mubashir Abbas is a Director and he is a seasoned Consumer
-              Banking professional with an experience of 20 years in Branch
-              Banking.
+              Rasha Tarek Fakhrel Deen has more then of 15 years of management
+              and marketing experience in multinational companies.
             </p>
           </div>
         </div>
@@ -185,11 +183,10 @@ const Leadership = () => {
             </p>
           </div>
         </div>
-        
       </div>
 
       <div className="grid grid-cols-12 w-full mb-40">
-      <div className=" col-span-12 lg:col-span-3  w-full">
+        <div className=" col-span-12 lg:col-span-3  w-full">
           <div>
             <img
               className=" rounded-full mx-auto h-[180px] w-[180px] object-cover object-top"

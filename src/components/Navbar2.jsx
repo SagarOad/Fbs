@@ -18,7 +18,7 @@ const Navbar2 = () => {
     <>
     <ScrollProgress />
     <div className="bg-white relative z-[99] ">
-      <nav className=" py-3 mx-8 2xl:mx-28 border-gray-200 dark:bg-gray-900">
+      <nav className=" py-3 mx-8 2xl:mx-28 border-gray-200 ">
         <div className="flex flex-wrap items-center justify-between mx-auto">
           <NavLink to="/">
             <a href="#main-banner" className="flex items-center cursor-pointer">
@@ -28,15 +28,16 @@ const Navbar2 = () => {
           <div className="flex md:order-2 md:flex-row flex-col-reverse">
             <button
               onClick={() => document.getElementById("my_modal_4").showModal()}
-              className="btn rounded-full bg-[#4481eb] text-[white] hover:text-[black] font-medium font-[inter] h-[52px] w-[190px] text-[18px]"
+              className="btn rounded-full bg-[#4481eb] text-[white] hidden md:block hover:text-[black] font- font-[inter] h-[52px] w-[190px] text-[18px]"
             >
               Request a Quote
             </button>
             <button
-              type="button"
-              className="inline-flex justify-end items-center p-2 text-sm text-gray-500 rounded-lg md:hidden focus:outline-none focus:ring-2 focus:ring-transparent dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
-              aria-controls="navbar-sticky"
-              aria-expanded={isDropdownVisible ? "true" : "false"}
+               type="button"
+               onClick={handleDropdownToggle}
+               className="inline-flex justify-end items-center p-2 text-sm text-gray-500 rounded-lg md:hidden focus:outline-none focus:ring-2 focus:ring-transparent "
+               aria-controls="navbar-sticky"
+               aria-expanded={isDropdownVisible ? "true" : "false"}
             >
               <span className="sr-only">Open main menu</span>
               <svg
@@ -138,6 +139,26 @@ const Navbar2 = () => {
                   </a>
                 </NavLink>
               </li>
+              <li className="pl-[3.75rem] py-2 md:py-0 md:border-0 border-t-2 border-white text-end">
+                <NavLink to="/startupinvestment">
+                  <a
+                    href="#startupinvestment"
+                    className="text-black hover:text-[#4481eb] font-[poppins] text-[18px] md:text-[18px]"
+                  >
+                    Startup Investment
+                  </a>
+                </NavLink>
+              </li>
+              <li className="pl-[3.75rem] md:hidden py-2 md:py-0 md:border-0 border-t-2 border-white text-end">
+                  <button
+                    onClick={() =>
+                      document.getElementById("my_modal_4").showModal()
+                    }
+                    className="btn rounded-full bg-[#4481eb] text-[white] hover:text-[black] font-medium font-[inter] h-[52px] w-[190px] text-[18px]"
+                  >
+                    Request a Quote
+                  </button>
+                </li>
               {/* Add more navigation links here */}
             </ul>
           </div>

@@ -18,13 +18,13 @@ const OurProducts = () => {
           <div className="w-[80%] xl:mt-[-120px] mx-auto grid grid-cols-12">
             <div className="col-span-12 mb-4 lg:mb-0 lg:col-span-4">
               <div className="card w-[95%] mx-auto bg-base-100 shadow-xl">
-                <div className="card-body rounded-2xl h-[265px] bg-[#f9f9f9]">
+                <div className="card-body rounded-2xl h-auto md:h-[265px] bg-[#f9f9f9]">
                   <img
-                    className=" w-[50%] my-4"
+                    className=" w-[80%] md:w-[50%] my-4"
                     src="https://www.famewheels.com/static/media/fame-wheels-logo.bdbcd17588780f149f99.png"
                     alt="Shoes"
                   />
-                  <h2 className="font-[inter] font-[700] relative  leading-[50px] text-[1.8rem]">
+                  <h2 className="font-[inter] font-[700] relative  leading-[50px] text-[1.3rem] md:text-[1.8rem]">
                     Famewheels
                   </h2>
                   <p>Pakistan's No.1 Bidding Platform</p>
@@ -33,13 +33,13 @@ const OurProducts = () => {
             </div>
             <div className="col-span-12 mb-4 lg:mb-0 lg:col-span-4">
               <div className="card w-[95%] mx-auto bg-base-100 shadow-xl ">
-                <div className="card-body rounded-2xl h-auto bg-[#f9f9f9]">
+                <div className="card-body rounded-2xl h-auto md:h-[265px] bg-[#f9f9f9]">
                   <img
-                    className=" w-[30%] my-4"
+                    className=" w-[70%] md:w-[30%] my-4"
                     src="https://famehealthcaretech.com/wp-content/uploads/2023/11/Group-16-1.png"
                     alt="Shoes"
                   />
-                  <h2 className="font-[inter] font-[700] relative  leading-[50px] text-[1.8rem]">
+                  <h2 className="font-[inter] font-[700] relative leading-[25px] md:leading-[50px] text-[1.3rem] md:text-[1.8rem]">
                     Fame Healthcare
                   </h2>
                   <p>
@@ -50,13 +50,13 @@ const OurProducts = () => {
             </div>
             <div className="col-span-12 mb-4 lg:mb-0 lg:col-span-4">
               <div className="card w-[95%] mx-auto bg-base-100 shadow-xl">
-                <div className="card-body rounded-2xl h-[265px] bg-[#f9f9f9]">
+                <div className="card-body rounded-2xl h-auto md:h-[265px] bg-[#f9f9f9]">
                   <img
-                    className=" w-[15%] my-4"
+                    className=" w-[50%] md:w-[15%] my-4"
                     src="https://studentofpakistan.com/images/sop.png"
                     alt="Shoes"
                   />
-                  <h2 className="font-[inter] font-[700] relative  leading-[50px] text-[1.8rem]">
+                  <h2 className="font-[inter] font-[700] relative leading-[25px] md:leading-[50px] text-[1.3rem] md:text-[1.8rem]">
                     Students Of Nature
                   </h2>
                   <p>
@@ -71,7 +71,7 @@ const OurProducts = () => {
 
           <div>
             <div className=" ml-auto mt-4 py-8">
-              <h1 className="font-[inter] text-center text-white mr-20 px-4 font-[700] relative leading-[44px] xl:leading-[60px] text-[2rem] xl:text-[2.7rem]">
+              <h1 className="font-[inter] text-center text-white md:mr-20 px-4 font-[700] relative leading-[44px] xl:leading-[60px] text-[2rem] xl:text-[2.7rem]">
                 We love transforming product ideas to digital realities.
               </h1>
             </div>

@@ -17,14 +17,14 @@ const Footer = () => {
         id="contact"
         className="max-w-screen-xl border-b-[#e6e6e6] border-b-2 px-4 mx-auto text-center py-16 lg:py-28 lg:px-6"
       >
-        <h1 className="font-[inter] font-[700] text-center relative mb-12 leading-[50px] text-[2.4rem]">
+        <h1 className="font-[inter] font-[700] text-center relative mb-8 leading-[50px] text-[2.1rem] md:text-[2.4rem]">
           14 years of building digital products and we are just getting started!
         </h1>
 
         <div className=" flex justify-center items-center">
           {/* You can open the modal using document.getElementById('ID').showModal() method */}
           <button
-            className="btn rounded-none bg-[#4481eb] text-[white] hover:text-[black] font-medium font-[inter] h-[66px] w-[260px] text-[20px]"
+            className="btn rounded-none bg-[#4481eb] text-[white] hover:text-[black] font-medium font-[inter] h-[66px] w-[260px] text-[18px] md:text-[20px]"
             onClick={() => document.getElementById("my_modal_4").showModal()}
           >
             START A PROJECT
@@ -42,7 +42,7 @@ const Footer = () => {
                         type=""
                         name="floating_name"
                         id="floating_name"
-                        class="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer"
+                        class="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none "
                         placeholder="Your Name"
                         required
                       />
@@ -52,7 +52,7 @@ const Footer = () => {
                         type="Email"
                         name="floating_email"
                         id="floating_password"
-                        class="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer"
+                        class="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none "
                         placeholder="Your Email"
                         required
                       />
@@ -62,7 +62,7 @@ const Footer = () => {
                         type="Contact"
                         name="repeat_contact"
                         id="floating_repeat_password"
-                        class="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer"
+                        class="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none "
                         placeholder="Contact"
                         required
                       />
@@ -72,7 +72,7 @@ const Footer = () => {
                         type="message"
                         name="repeat_message"
                         id="floating_repeat_password"
-                        class="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer"
+                        class="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none "
                         placeholder="Your Message"
                         required
                       />

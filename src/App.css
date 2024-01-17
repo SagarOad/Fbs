@@ -28,10 +28,10 @@
   src: url("./assets/fonts/CabinetGrotesk-Extralight.otf") format("opentype");
 }
 
-body {
-  font-family: "cabinet", sans-serif;
+/* body, h1,h2,h3,h4,h5,h6,p,table,td,tbody,section,div,li,ul,a,button,Button {
+  font-family: "cabinet", sans-serif !important;
   overflow-x: hidden;
-}
+} */
 
 .primary-btn {
   width: 160px;
@@ -281,4 +281,23 @@ h1.font-\[cabinet-bold\].text-\[\#ffffff\].relative.leading-\[75px\].text-\[4rem
 }
 ::-webkit-scrollbar-thumb:hover {
   background: var(--c-green-secondary);
+}
+
+
+
+.investment {
+  position: relative;
+  background-image: url("./assets/investment.jpg"); /* Replace 'your-image-url.jpg' with the actual path to your image */
+  background-size: cover; /* Adjust as needed */
+  background-position: center;
+}
+.investment::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: linear-gradient(to right, #25aae1, #353535, #3f85edb0, #04befe);
+  opacity: 0.7; /* Adjust the opacity as needed */
 }

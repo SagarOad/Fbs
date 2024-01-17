@@ -39,7 +39,7 @@ const Testimonials = () => {
   };
 
   return (
-    <section className="bg-white py-11 dark:bg-gray-900">
+    <section className="bg-white py-11 ">
       <div className="max-w-screen-xl px-4 py-8 mx-auto text-center lg:py-16 lg:px-6">
         <h1 className="font-[inter] font-[700] text-center relative mb-8 leading-[50px] text-[2.4rem]">
           What our clients say!
@@ -49,13 +49,13 @@ const Testimonials = () => {
             <div key={index}>
               <figure className="max-w-screen-md mx-auto">
                 <blockquote>
-                  <p className="text-2xl font-[inter] font-medium text-gray-900 dark:text-white">
+                  <p className="text-2xl font-[inter] font-medium text-gray-900 ">
                     {testimonial.quote}
                   </p>
                 </blockquote>
                 <figcaption className="flex items-center justify-center mt-6 space-x-3">
-                  <div className="flex items-center divide-x-2 divide-gray-500 dark:divide-gray-700">
-                    <div className="pr-3 font-medium text-gray-900 dark:text-white">
+                  <div className="flex items-center divide-x-2 divide-gray-500 ">
+                    <div className="pr-3 font-medium text-gray-900 ">
                       {testimonial.author}
                     </div>
                   </div>
