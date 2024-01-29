@@ -126,7 +126,7 @@ const Footer = () => {
             <IoLocation className=" text-[52px] mr-4" />
 
             <a className="link no-underline text-[16px] mt-2">
-              2nd floor, Office#214, Clifton Block 9 The plaza shopping center,
+            Office # 214, 2nd floor, The plaza shopping center, Clifton Block 9,
               Karachi
             </a>
           </div>

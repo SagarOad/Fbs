@@ -11,6 +11,7 @@ import TechTabs from '../components/TechTabs'
 import Awards from '../components/Awards'
 import Footer from '../components/Footer'
 import Team from '../components/Team'
+import OtherCompanies from "../components/OtherCompanies"
 
 const Home = () => {
   return (
@@ -24,6 +25,7 @@ const Home = () => {
         {/* <Team /> */}
         <TechTabs />
         <Awards />
+        {/* <OtherCompanies /> */}
         <Footer />
     </div>
   )

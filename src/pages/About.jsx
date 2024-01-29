@@ -4,6 +4,7 @@ import Leadership from "../components/Leadership";
 import Developent from "../components/Developent";
 import Creative from "../components/Creative";
 import aboutBanner from "../assets/about-banner.jpg";
+import globe from "../assets/globe.jpg";
 import Footer from "../components/Footer";
 
 const About = () => {
@@ -36,7 +37,7 @@ const About = () => {
             <h1 className="font-[inter] font-[800] text-white text-left relative leading-[44px] xl:leading-[60px] text-[2rem] xl:text-[2.7rem]">
               About
             </h1>
-            <p className="text-[18px] position-relative  mt-4 font-[inter] lg:mr-[150px] font-400 text-white">
+            <p className="text-[18px] position-relative mt-4 font-[inter] lg:mr-[150px] font-400 text-white">
               At Fame Business Solutions, we are a dynamic team of experts
               passionate about crafting innovative digital solutions. Our
               commitment lies in creating impactful experiences, solving
@@ -52,6 +53,27 @@ const About = () => {
             </button>
           </div>
           <div className="flex xl:flex-row flex-col mt-20 justify-between items-center"></div>
+        </div>
+      </div>
+
+      <div className="grid grid-cols-12 my-40 mx-8 lg:mx-52 2xl:mx-80">
+        <div className="xl:col-span-7 col-span-12 lg:pr-20 flex justify-center items-center">
+          <div>
+            <p className="font-[inter] font-[800] relative leading-[44px] xl:leading-[60px] text-[1.5rem] xl:text-[2.4rem]">
+              We are a digital agency with a global footprint, serving clients
+              across diverse industries worldwide.
+            </p>
+            <p className="font-[inter] text-[18px] pt-3">
+              We also have a  specialized team at Fame Business Solutions LLC in the UAE
+              provides tailored guidance to achieve corporate objectives.
+            </p>
+          </div>
+        </div>
+        <div className="xl:col-span-5 col-span-12">
+          <img
+            className="w-[100%] h-[100%] border-[#25aae1] border-2 rounded-[30px] object-cover object-left"
+            src={globe}
+          />
         </div>
       </div>
 
@@ -83,7 +105,7 @@ const About = () => {
         <h1 className="font-[inter] font-[800] text-[#25aae1] mb-12 text-center relative leading-[44px] xl:leading-[60px] text-[2rem] xl:text-[2.7rem]">
           Our Team
         </h1>
-        
+
         <div className="mt-4">
           {activeTab === 1 && <Leadership />}
           {activeTab === 2 && <Developent />}
