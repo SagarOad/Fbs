@@ -1,7 +1,8 @@
 import React from "react";
 import wheels from "../assets/wheelmock.png";
 import healthcare from "../assets/health2.png";
-import sop from "../assets/sop.png";
+import son from "../assets/son.png";
+
 
 const OurProducts = () => {
   return (
@@ -22,7 +23,7 @@ const OurProducts = () => {
                   <img
                     className=" w-[80%] md:w-[50%] my-4"
                     src="https://www.famewheels.com/static/media/fame-wheels-logo.bdbcd17588780f149f99.png"
-                    alt="Shoes"
+                    alt="Famewheels"
                   />
                   <h2 className="font-[inter] font-[700] relative  leading-[50px] text-[1.3rem] md:text-[1.8rem]">
                     Famewheels
@@ -37,7 +38,7 @@ const OurProducts = () => {
                   <img
                     className=" w-[70%] md:w-[30%] my-4"
                     src="https://famehealthcaretech.com/wp-content/uploads/2023/11/Group-16-1.png"
-                    alt="Shoes"
+                    alt="Fame Healthcare"
                   />
                   <h2 className="font-[inter] font-[700] relative leading-[25px] md:leading-[50px] text-[1.3rem] md:text-[1.8rem]">
                     Fame Healthcare
@@ -53,8 +54,8 @@ const OurProducts = () => {
                 <div className="card-body rounded-2xl h-auto md:h-[265px] bg-[#f9f9f9]">
                   <img
                     className=" w-[50%] md:w-[15%] my-4"
-                    src="https://studentofpakistan.com/images/sop.png"
-                    alt="Shoes"
+                    src={son}
+                    alt="Students Of Nature"
                   />
                   <h2 className="font-[inter] font-[700] relative leading-[25px] md:leading-[50px] text-[1.3rem] md:text-[1.8rem]">
                     Students Of Nature
