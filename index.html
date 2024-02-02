@@ -9,7 +9,6 @@
       href="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick.css"
     />
     <link rel="icon" type="image/png" href="fbs.icon.png" />
-
     <link
       rel="stylesheet"
       type="text/css"
@@ -19,12 +18,40 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.0/flowbite.min.css"
       rel="stylesheet"
     />
-
     <title>Fame Business Solutions – Where Ideas Transform into Success</title>
+    <script>
+      !(function (f, b, e, v, n, t, s) {
+        f.fbq ||
+          ((o = f.fbq =
+            function () {
+              o.callMethod
+                ? o.callMethod.apply(o, arguments)
+                : o.queue.push(arguments);
+            }),
+          e._fbq || (f._fbq = o),
+          (o.push = o),
+          (o.loaded = !0),
+          (o.version = "2.0"),
+          (o.queue = []),
+          ((a = t.createElement(n)).async = !0),
+          (a.src = "https://connect.facebook.net/en_US/fbevents.js"),
+          (f = t.getElementsByTagName(n)[0]).parentNode.insertBefore(a, f));
+      })(window, document, "script"),
+        fbq("init", "263316643120401"),
+        fbq("track", "PageView");
+    </script>
   </head>
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.5/flowbite.min.js"></script>
+    <noscript>
+      <img
+        height="1"
+        width="1"
+        style="display: none"
+        src="https://www.facebook.com/tr?id=408577321682277&ev=PageView&noscript=1"
+      />
+    </noscript>
   </body>
 </html>
