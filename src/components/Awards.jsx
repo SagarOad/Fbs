@@ -21,6 +21,18 @@ const Awards = () => {
       para: "Micheal Gough",
       image: "https://flowhcm.com/wp-content/uploads/2023/08/sep-logo.webp",
     },
+    {
+      award:
+        "Flowbite is just awesome. It contains tons of predesigned components...",
+      para: "Micheal Gough",
+      image: "https://seeklogo.com/images/F/fbr-pakistan-logo-4B2F3E445D-seeklogo.com.png",
+    },
+    {
+      award:
+        "Flowbite is just awesome. It contains tons of predesigned components...",
+      para: "Micheal Gough",
+      image: "https://www.srb.gos.pk/resources/images/srb.png",
+    },
     // Add more testimonials here
   ];
 
@@ -28,7 +40,7 @@ const Awards = () => {
     dots: true,
     infinite: true,
     speed: 500,
-    slidesToShow: 3,
+    slidesToShow: 5,
     slidesToScroll: 3,
   };
   return (
