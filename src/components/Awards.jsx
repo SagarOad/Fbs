@@ -44,10 +44,10 @@ const Awards = () => {
     slidesToScroll: 3,
   };
   return (
-    <div className="py-16 lg:py-28  border-b-[#e6e6e6] border-b-2">
+    <div className="py-16 lg:py-28 border-b-[#e6e6e6] border-b-2">
       <div className="max-w-screen-xl mx-auto">
         <h1 className="font-[inter] font-[700] text-center relative mb-8 leading-[50px] text-[2.1rem] md:text-[2.4rem]">
-          Certifications, Awards, Recognitions & Affliiations
+          Certifications, Awards, Recognitions & Affiliation
         </h1>
         <Slider {...settings}>
           {awards.map((award, index) => (

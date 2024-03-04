@@ -18,7 +18,7 @@ const Footer = () => {
         className="max-w-screen-xl border-b-[#e6e6e6] border-b-2 px-4 mx-auto text-center py-16 lg:py-28 lg:px-6"
       >
         <h1 className="font-[inter] font-[700] text-center relative mb-8 leading-[50px] text-[2.1rem] md:text-[2.4rem]">
-          14 years of building digital products and we are just getting started!
+          Creating digital products with endless potential
         </h1>
 
         <div className=" flex justify-center items-center">
@@ -126,8 +126,8 @@ const Footer = () => {
             <IoLocation className=" text-[52px] mr-4" />
 
             <a className="link no-underline text-[16px] mt-2">
-            Office # 214, 2nd floor, The plaza shopping center, Clifton Block 9,
-              Karachi
+              Office # 214, 2nd floor, The plaza shopping center, Clifton Block
+              9, Karachi
             </a>
           </div>
           <div className=" flex justify-start mb-2 items-center">

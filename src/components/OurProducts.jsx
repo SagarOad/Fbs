@@ -17,7 +17,7 @@ const OurProducts = () => {
         </div>
         <div className="bg-[#4481eb] product-sec h-[auto] rounded-3xl py-8">
           <div className="w-[80%] xl:mt-[-120px] mx-auto grid grid-cols-12">
-            <div className="col-span-12 mb-4 lg:mb-0 lg:col-span-4">
+            <div className="col-span-12 mb-4 lg:mb-0 lg:col-span-6">
               <div className="card w-[95%] mx-auto bg-base-100 shadow-xl">
                 <div className="card-body rounded-2xl h-auto md:h-[265px] bg-[#f9f9f9]">
                   <img
@@ -32,7 +32,7 @@ const OurProducts = () => {
                 </div>
               </div>
             </div>
-            <div className="col-span-12 mb-4 lg:mb-0 lg:col-span-4">
+            <div className="col-span-12 mb-4 lg:mb-0 lg:col-span-6">
               <div className="card w-[95%] mx-auto bg-base-100 shadow-xl ">
                 <div className="card-body rounded-2xl h-auto md:h-[265px] bg-[#f9f9f9]">
                   <img
@@ -49,7 +49,7 @@ const OurProducts = () => {
                 </div>
               </div>
             </div>
-            <div className="col-span-12 mb-4 lg:mb-0 lg:col-span-4">
+            {/* <div className="col-span-12 mb-4 lg:mb-0 lg:col-span-4">
               <div className="card w-[95%] mx-auto bg-base-100 shadow-xl">
                 <div className="card-body rounded-2xl h-auto md:h-[265px] bg-[#f9f9f9]">
                   <img
@@ -67,7 +67,7 @@ const OurProducts = () => {
                   </p>
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
 
           <div>

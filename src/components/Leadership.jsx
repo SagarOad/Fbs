@@ -62,7 +62,7 @@ const Leadership = () => {
             </p>
           </div>
         </div>
-        <div className=" col-span-12 lg:col-span-3  w-full">
+        <div className=" col-span-12 lg:col-span-3 w-full">
           <div>
             <img
               className=" w-48"
